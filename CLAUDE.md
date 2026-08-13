@@ -83,3 +83,18 @@ Double-click **Publish to GitHub.command**. It runs `build.py`, refuses to
 publish if validation fails, commits, and pushes with the GateCity token at
 `AI Ops/gcb-github-token.txt`. Live at
 `https://gatecitybuckhead.github.io/church-app/` about a minute later.
+
+**The GitHub account is `gatecitybuckhead`, and Andrew signs in through
+Google as `production@gatecitybuckhead.com`** — not with a GitHub
+username/password. Any instruction that says "log in to GitHub" needs to say
+"Continue with Google, as production@", or he'll go looking for a credential
+that doesn't exist. This is a different account from his personal
+`andrewfaletti`, which holds the three private estate repos.
+
+The repo has to be **public** — GitHub Pages isn't available on private repos
+for free accounts. That's also why Team Hub password-protects its pages rather
+than relying on repo privacy. Everything in `docs/` is world-readable,
+including the book PDFs, which was a deliberate call (8/13/2026).
+
+Creating the repo is a manual step: the push token can push but cannot create
+repositories.
