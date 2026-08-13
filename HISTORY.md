@@ -165,3 +165,7 @@ stale assets as a bug, download what the server is actually serving and compare
 - Gotcha for next time: Hannah's outline gdocs export unauthenticated via
   /export?format=pdf — except 3March8Outline, which needed the Drive
   connector. Google throttles ~1 export/sec; sleep between curls.
+- Follow-up same evening: STRONG and TRANSFORMED were finished books hiding
+  as gdocs in the books folder. Exported to PDF (Strong needed the Drive
+  connector — not link-shared), stripped the "Tab 1" junk page with pypdf,
+  page-1 covers, added to Library. All four Hazen books now in the app.

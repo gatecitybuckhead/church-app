@@ -114,8 +114,12 @@ weeks.
   on Amazon. Library items with a `cover` field render as a clickable
   bookshelf grid (`.shelf` in app.css); items without one stay as list rows.
   Covers live at `docs/art/book-*.jpg` — Conversations uses the real KDP
-  cover; Seven Seeds and Holy Week are just page-1 renders because no
-  designed cover exists anywhere in Drive.
+  cover; the rest are page-1 renders because no designed cover exists
+  anywhere in Drive. All four Hazen books are in: Conversations, Seven
+  Seeds, Strong, Transformed. Strong/Transformed were exported straight
+  from their gdocs in `01_Books and Written Resources/` — a Google Doc that
+  uses tabs exports with a junk "Tab 1" first page; strip it with pypdf
+  before shipping (installed via `pip3 install --user --break-system-packages pypdf`).
 - **Sermon-note PDFs live in `docs/files/notes/`, named `YYYY-MM-DD-<slug>.pdf`**
   (45 of them as of 8/13/2026), attached to sermons via `notes` patches in
   `manual_sermons.json`. The 2025 ones are hand-made PDFs from
