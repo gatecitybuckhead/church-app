@@ -169,3 +169,10 @@ stale assets as a bug, download what the server is actually serving and compare
   as gdocs in the books folder. Exported to PDF (Strong needed the Drive
   connector — not link-shared), stripped the "Tab 1" junk page with pypdf,
   page-1 covers, added to Library. All four Hazen books now in the app.
+- Amazon covers: the real KDP covers for Seven Seeds (yellow/seedling),
+  Transformed (butterfly on black), and Strong (blue mountains) were pulled
+  from their Amazon listings (ASINs B0DX5244NC, B0DZ863ZX9, B0GM97RPG1 —
+  from AMAZON REPORT xlsx + search) and replaced the page-1 renders.
+  Conversations already had its KDP cover from Drive. Strong went on sale
+  Feb 7, 2026 ($2.99 Kindle / $4.60 paperback) — so all four books both
+  sell on Amazon AND are free PDFs in the app, per Andrew's call.
