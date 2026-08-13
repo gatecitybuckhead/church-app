@@ -77,14 +77,46 @@ twice.
   as a full service on 8/9 left Journey Through James (8/1) on the front page.
   Now it takes the newest outright and labels the badge by kind.
 
+### Launched — https://gatecitybuckhead.github.io/church-app/
+
+Repo `gatecitybuckhead/church-app`, Pages serving `main` → `/docs`. Verified in
+production: service worker active, shell cached, 125 sermons / 19 series / 6
+library items, PDFs downloading.
+
+**The push failure that ate an hour, and how to recognise it next time.**
+Pushing to the new repo failed with `Permission to gatecitybuckhead/church-app
+denied to gatecitybuckhead` — a 403 that reads like the *account* lacks rights,
+which is nonsense when the account owns the repo. The real cause: fine-grained
+tokens are scoped to a named list of repositories, and this one was created in
+July for `team-hub` only. A new repo is not covered automatically.
+
+Two things made it hard to see:
+- `GET /repos/.../church-app` returned `permissions: {push: true}`, because
+  that field reports the *user's* rights, not the token's.
+- Reading the repo over the API worked fine — but only because the repo is
+  public, so those reads never needed the token at all.
+
+The diagnostic that actually settles it is an endpoint requiring token push
+scope: `GET /repos/{owner}/{repo}/collaborators` returned 200 for `team-hub`
+and 403 for `church-app`. Token is now "No expiration" with access to all
+repositories. It still **cannot create repos** and **lacks the Pages
+permission** — both remain manual browser steps.
+
+**Real branding.** The icon, header mark and share card now use the church's
+emerald gate hexagon, sourced from the YouTube channel avatar (900×900). The
+Drive logo folder is empty and the only GateCity mark in Drive is the black
+parent-brand "GateCity Church" lockup. `tools/make_icons.py` deleted.
+
+Open Graph and Twitter tags added — they did not exist before, so a shared link
+previewed as a bare grey URL. They necessarily hard-code the github.io address;
+see the warning in CLAUDE.md before moving to a custom domain.
+
 **Open items**
-- **Repo `gatecitybuckhead/church-app` still needs creating** — I'm not
-  permitted to create GitHub repos from here (blocked both via the API and the
-  `gh` CLI), so this one step is Andrew's. Everything else is ready: branch is
-  `main`, the remote is already set, 3 commits, `build.py` clean.
-- GitHub Pages then needs pointing at `main` → `/docs`.
-- `07_Marketing and Communications/01_Logos` is empty, so the icon is
-  hand-generated. Swap it when a real logo lands.
-- Noticed in passing: GCB already has Church Center
-  (`gatecity-buckhead.churchcenter.com`) — worth auditing what it already
-  covers before adding features here.
+- Weekly auto-refresh of the sermon library is still not built. This is the
+  highest-value remaining item: nobody will remember to run `fetch_youtube.py`,
+  and an app whose newest message is three weeks old gets abandoned.
+- A QR-code slide for a Sunday, pointing at `/install.html`. `Team Hub/tools/
+  qr.py` is vendored and reusable.
+- Series art for the other 16 series; speaker/scripture are still empty.
+- Audit what Church Center (`gatecity-buckhead.churchcenter.com`) already
+  covers before duplicating giving/registrations here.
