@@ -31,7 +31,13 @@ function sermonsFor(id) {
 }
 
 function latestSermon() {
-  return state.sermons.find((s) => s.kind === "message") || state.sermons[0];
+  // Genuinely the newest thing, whatever kind it is. Preferring a message-only
+  // cut here meant a brand-new series whose first week is only up as a full
+  // service left the front page showing something two weeks stale.
+  // sermons are already sorted newest-first; on a tie, the message cut wins.
+  const newest = state.sermons[0];
+  if (!newest) return undefined;
+  return state.sermons.find((s) => s.date === newest.date && s.kind === "message") || newest;
 }
 
 function upcoming(limit = 4) {
@@ -71,6 +77,28 @@ const icon = (name) => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[name
 function thumbImg(s, cls = "") {
   // hqdefault always exists; maxres often doesn't, so don't reach for it.
   return `<img src="${esc(s.thumb)}" alt="" loading="lazy" class="${cls}">`;
+}
+
+const artCache = {};
+
+function seriesArt(seriesId) {
+  // One image per series, so a list of messages reads as a series rather than
+  // a wall of unrelated video stills. Real artwork when we have it; otherwise
+  // the series' FIRST video, which is normally the launch graphic.
+  if (seriesId in artCache) return artCache[seriesId];
+  const s = seriesById(seriesId);
+  let art = s?.art;
+  if (!art) {
+    const inSeries = sermonsFor(seriesId);
+    art = inSeries.length ? inSeries[inSeries.length - 1].thumb : null;
+  }
+  artCache[seriesId] = art;
+  return art;
+}
+
+function artImg(seriesId, fallback) {
+  const src = seriesArt(seriesId) || fallback;
+  return `<img src="${esc(src)}" alt="" loading="lazy">`;
 }
 
 /* ---------- data ---------- */
@@ -121,7 +149,7 @@ function viewHome() {
     <a class="card" href="#/sermon/${esc(latest.youtubeId)}">
       <span class="thumb">
         ${thumbImg(latest)}
-        <span class="badge">Latest message</span>
+        <span class="badge">${latest.kind === "service" ? "Latest service" : "Latest message"}</span>
         <span class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
       </span>
       <span class="card-body">
@@ -180,7 +208,7 @@ function linkHTML(l) {
 function rowHTML(s) {
   const ser = seriesById(s.seriesId);
   return `<a class="row" href="#/sermon/${esc(s.youtubeId)}">
-    <span class="rt">${thumbImg(s)}</span>
+    <span class="rt">${artImg(s.seriesId, s.thumb)}</span>
     <span class="info">
       <span class="meta">${esc(ser?.title || "")} · ${esc(prettyDate(s.date))}</span>
       <h3>${esc(s.title)}</h3>

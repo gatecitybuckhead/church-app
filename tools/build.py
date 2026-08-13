@@ -56,6 +56,10 @@ def main():
     if len(ids) != len(series):
         problems.append("series.json has duplicate ids")
 
+    for s in series:
+        if s.get("art") and not (DOCS / s["art"]).exists():
+            problems.append(f"series '{s['id']}' points at missing art: {s['art']}")
+
     for s in sermons:
         for key in ("youtubeId", "title", "seriesId", "date", "kind"):
             if not s.get(key):
