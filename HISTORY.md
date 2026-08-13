@@ -176,3 +176,10 @@ stale assets as a bug, download what the server is actually serving and compare
   Conversations already had its KDP cover from Drive. Strong went on sale
   Feb 7, 2026 ($2.99 Kindle / $4.60 paperback) — so all four books both
   sell on Amazon AND are free PDFs in the app, per Andrew's call.
+- Round 3: Hazen has SEVEN books on Amazon, not four. Added Blessed to Be a
+  Blessing (B0G2FGMHMB, cover from Drive Marketing Comms/B2BAB/Book Cover),
+  Manifest (B0H4SCD7LK) and Detox (B0H8GDKBY4) — those two have no
+  manuscript in the shared drive, so their Library cards link to Amazon
+  instead of a free PDF (only an epub exists for B2BAB). The "Legacy book"
+  is the Legacy Prayer & Scripture Guide (10-week gdoc from Virtual
+  Prayer/Legacy) — exported, Tab-1 stripped, filed under Prayer Guides.

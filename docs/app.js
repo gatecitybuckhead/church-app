@@ -40,6 +40,26 @@ function latestSermon() {
   return state.sermons.find((s) => s.date === newest.date && s.kind === "message") || newest;
 }
 
+function recentTeaching(limit) {
+  // One row per sermon for the Home page. Most Sundays exist twice — a
+  // "Message Only" cut and the full service — and listing both made the same
+  // sermon show up two or three times in Recent. Keep the message cut, and
+  // keep a service only when no message cut of it exists; message uploads lag
+  // the service by up to two weeks, so that's the pairing window.
+  const out = [];
+  for (const s of state.sermons) {
+    if (s.kind !== "message") {
+      const d = new Date(s.date);
+      const cut = state.sermons.find((m) => m.kind === "message" && m.seriesId === s.seriesId &&
+        new Date(m.date) - d >= -864e5 && new Date(m.date) - d <= 14 * 864e5);
+      if (cut) continue;
+    }
+    out.push(s);
+    if (out.length === limit) break;
+  }
+  return out;
+}
+
 function upcoming(limit = 4) {
   // Compare against a local YYYY-MM-DD so an event stays listed all day on the
   // day it happens, rather than disappearing at midnight UTC.
@@ -158,7 +178,7 @@ function viewHome() {
       </span>
     </a>` : `<div class="empty"><b>No messages yet</b>Run the sermon refresh to pull them in.</div>`;
 
-  const recent = state.sermons.slice(0, 4).map(rowHTML).join("");
+  const recent = recentTeaching(4).map(rowHTML).join("");
 
   return `
     <h1>${esc(c.name || "Our Church")}</h1>

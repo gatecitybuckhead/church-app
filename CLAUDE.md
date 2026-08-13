@@ -115,8 +115,10 @@ weeks.
   bookshelf grid (`.shelf` in app.css); items without one stay as list rows.
   Covers live at `docs/art/book-*.jpg` — Conversations uses the real KDP
   cover; the rest are page-1 renders because no designed cover exists
-  anywhere in Drive. All four Hazen books are in: Conversations, Seven
-  Seeds, Strong, Transformed. Strong/Transformed were exported straight
+  anywhere in Drive. All seven Hazen books are in: Conversations, Seven
+  Seeds, Strong, Transformed (free in-app PDFs) + Blessed to Be a Blessing,
+  Manifest, Detox (covers link to Amazon — no manuscript in the shared
+  drive; B2BAB has only an epub). Strong/Transformed were exported straight
   from their gdocs in `01_Books and Written Resources/` — a Google Doc that
   uses tabs exports with a junk "Tab 1" first page; strip it with pypdf
   before shipping (installed via `pip3 install --user --break-system-packages pypdf`).
