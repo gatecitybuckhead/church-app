@@ -49,9 +49,34 @@ python3 tools/build.py            # validate everything + stamp the worker
 ever owns title/date/thumbnail/kind/series. Run `build.py` before publishing;
 it exits non-zero on a broken link or a sermon pointing at a missing series.
 
-`tools/make_icons.py` regenerates the home-screen icons (pure stdlib, no
-Pillow). Replace it the moment the church's real logo lands in Drive —
-`07_Marketing and Communications/01_Logos` is empty as of 8/13/2026.
+## Branding
+The home-screen icon, the header mark and the link-preview card are all the
+church's own emerald gate mark, taken from the **YouTube channel avatar**
+(`@GateCityBuckhead`, 900×900 on white) — the Drive logo folder
+`07_Marketing and Communications/01_Logos` is empty, and the only file in Drive
+carrying this mark says "GateCity **Church**" in black, which is the parent
+brand rather than Buckhead. Regenerate from a 900px+ square source with `sips`:
+
+```bash
+sips -s format png -Z 512 logo.png --out docs/icons/icon-512.png
+sips -s format png -Z 192 logo.png --out docs/icons/icon-192.png
+sips -s format png -Z 180 logo.png --out docs/icons/apple-touch-icon.png
+sips -s format png -Z 368 logo.png --out /tmp/m.png            # maskable: ~72%
+sips -s format png -p 512 512 --padColor FFFFFF /tmp/m.png --out docs/icons/maskable-512.png
+sips -s format png -Z 430 logo.png --out /tmp/o.png            # share card
+sips -s format png -p 630 1200 --padColor FFFFFF /tmp/o.png --out docs/icons/share-card.png
+```
+
+The mark is emerald-on-white, so `.mark` in the header keeps a **white chip**
+behind it — without that it disappears in dark mode.
+
+**The og:/twitter: tags in `index.html` use absolute URLs**, because Messages
+and WhatsApp fetch the page from their own servers where a relative path
+resolves to nothing. That means they hard-code
+`https://gatecitybuckhead.github.io/church-app/`. **If the app ever moves to a
+custom domain, those tags have to move with it** or every shared link shows a
+broken preview while the app itself works fine — a failure nobody notices for
+weeks.
 
 ## Hard-won details
 - **A series with no playlist** (a brand-new one) goes in
