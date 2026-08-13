@@ -22,7 +22,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 DATA = DOCS / "data"
-SHELL = ["index.html", "app.css", "app.js"]
+# Everything the service worker precaches and that a person could see go stale.
+# If you add a file to SHELL_FILES in sw.js, add it here too.
+SHELL = ["index.html", "app.css", "app.js", "install.html", "manifest.webmanifest"]
 
 problems = []
 notes = []

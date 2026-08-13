@@ -25,6 +25,9 @@
     font-size: 14px; font-weight: 750;
   }
   .step p { margin: 0; }
+  /* Both are spans so they can sit in one <p>; without this the description
+     runs on from the title as a single paragraph. */
+  .step .t, .step .d { display: block; }
   .step .t { font-weight: 680; }
   .step .d { color: var(--muted); font-size: 14px; margin-top: 3px; }
   .glyph {

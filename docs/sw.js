@@ -10,7 +10,7 @@
    Bump SHELL_VERSION whenever index.html, app.css, or app.js changes —
    `python3 tools/build.py` does it for you. */
 
-const SHELL_VERSION = "v04d7083f";
+const SHELL_VERSION = "v4a10ad1d";
 const SHELL = `gcb-shell-${SHELL_VERSION}`;
 const CONTENT = "gcb-content-v1";
 
