@@ -262,6 +262,28 @@ h2 { font-size: 19px; font-weight: 750; letter-spacing: -.01em; margin: 28px 0 1
   margin-top: 1px; color: var(--brand);
 }
 
+/* ---------- library shelf ---------- */
+
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px 14px;
+  margin-bottom: 18px;
+}
+/* Spans inside an <a> — same deal as .card above: block them or they fragment. */
+.book, .book .cover, .book .bt, .book .bn { display: block; }
+.book .cover {
+  aspect-ratio: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.book .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.book .bt { margin-top: 9px; font-weight: 660; font-size: 14.5px; line-height: 1.3; }
+.book .bn { color: var(--muted); font-size: 12.5px; }
+
 /* ---------- player ---------- */
 
 .player {

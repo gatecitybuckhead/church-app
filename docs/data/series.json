@@ -4,7 +4,7 @@
     {
       "id": "family-matters",
       "title": "Family Matters",
-      "blurb": "What it means to belong to the family of God \u2014 and to each other.",
+      "blurb": "What it means to belong to the family of God — and to each other.",
       "started": "2026-08-09",
       "playlists": {
         "messages": null,
@@ -31,12 +31,13 @@
       "playlists": {
         "messages": "PLZe6ANQOBlosJM9tnNP59H_q8csnFx_HC",
         "full": "PLZe6ANQOBlos7o_TUzLM8Kz2wzcIQ7EL8"
-      }
+      },
+      "art": "art/manifest.jpg"
     },
     {
       "id": "covered",
       "title": "Covered",
-      "blurb": "Resurrection Sunday 2026 \u2014 the covering we could never earn.",
+      "blurb": "Resurrection Sunday 2026 — the covering we could never earn.",
       "started": "2026-03-29",
       "playlists": {
         "messages": null,
@@ -52,7 +53,8 @@
       "playlists": {
         "messages": "PLZe6ANQOBlot2sAtr503IU-J_2aHDJMyY",
         "full": "PLZe6ANQOBlovYTp_4Sae6D4YnSnkwqOKe"
-      }
+      },
+      "art": "art/wisdom-for-wealth.jpg"
     },
     {
       "id": "detox",
@@ -62,7 +64,8 @@
       "playlists": {
         "messages": "PLCPKL77uWapo",
         "full": "PLZe6ANQOBlouABLcgOVhSshgHf7DJv4XV"
-      }
+      },
+      "art": "art/detox.jpg"
     },
     {
       "id": "culture-of-hunger",
@@ -72,7 +75,8 @@
       "playlists": {
         "messages": "PLZe6ANQOBloubHj2gWM9sYuhLbcB5RlTm",
         "full": "PLZe6ANQOBlosEpURijsVkDV0_SQV2P90M"
-      }
+      },
+      "art": "art/culture-of-hunger.jpg"
     },
     {
       "id": "start-strong",
@@ -82,17 +86,19 @@
       "playlists": {
         "messages": "PLZe6ANQOBlot3N_siH-z_VKBkwDrWVaOX",
         "full": "PLZe6ANQOBlot1C7FcP3tNGC2Rn17sGWIX"
-      }
+      },
+      "art": "art/start-strong.jpg"
     },
     {
       "id": "messiah",
       "title": "Messiah",
-      "blurb": "Advent at GateCity \u2014 the One the whole story was pointing to.",
+      "blurb": "Advent at GateCity — the One the whole story was pointing to.",
       "started": "2025-12-07",
       "playlists": {
         "messages": "PLZe6ANQOBlouvE1j50jNRp2why_oRXbQE",
         "full": "PLZe6ANQOBlotnpdBVtu8QnL24_cqnzcAY"
-      }
+      },
+      "art": "art/messiah.jpg"
     },
     {
       "id": "blessed-to-be-a-blessing",
@@ -102,7 +108,8 @@
       "playlists": {
         "messages": "PLZe6ANQOBlouPRiUTUEJNNRwByrIyUxrN",
         "full": "PLZe6ANQOBlospN60PXlXbESzOnD3T_1Ms"
-      }
+      },
+      "art": "art/blessed-to-be-a-blessing.jpg"
     },
     {
       "id": "legacy",
@@ -112,7 +119,8 @@
       "playlists": {
         "messages": "PLZe6ANQOBloucCaK3GNvv24zR06qJRL1c",
         "full": "PLZe6ANQOBlovex7BuKytbWcI0AfAI7G4J"
-      }
+      },
+      "art": "art/legacy.jpg"
     },
     {
       "id": "conversations",
@@ -122,17 +130,19 @@
       "playlists": {
         "messages": "PLZe6ANQOBlovhSSRNNxxELaJFEWuDNi_g",
         "full": null
-      }
+      },
+      "art": "art/conversations.jpg"
     },
     {
       "id": "encounter-sundays",
       "title": "Encounter Sundays",
-      "blurb": "Extended worship and ministry \u2014 space to meet with God.",
+      "blurb": "Extended worship and ministry — space to meet with God.",
       "started": "2025-09-01",
       "playlists": {
         "messages": null,
         "full": "PLZe6ANQOBlosx1paPzcFzskVg3tpxoi_X"
-      }
+      },
+      "art": "art/encounter-sundays.jpg"
     },
     {
       "id": "just-the-text",
@@ -192,7 +202,8 @@
       "playlists": {
         "messages": null,
         "full": "PLZe6ANQOBloueW11wQacQ-KdjTXVgZzb2"
-      }
+      },
+      "art": "art/pentecost-atl-2026.jpg"
     }
   ],
   "_art_note": "Optional 'art' per series: a 16:9 image in docs/art/ used as the thumbnail for every message in that series. Without it the app falls back to the thumbnail of the series' FIRST video, which is normally the launch graphic. Add art with: sips -s format jpeg -s formatOptions 80 -Z 640 <slide>.png --out docs/art/<series-id>.jpg"

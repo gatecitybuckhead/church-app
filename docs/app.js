@@ -352,13 +352,23 @@ function viewLibrary() {
   return `
     <h1>Library</h1>
     <p class="sub">Teaching notes, study guides, and reading plans.</p>
-    ${Object.entries(groups).map(([cat, items]) => `
+    ${Object.entries(groups).map(([cat, items]) => {
+      const shelf = items.filter((r) => r.cover);
+      const rows = items.filter((r) => !r.cover);
+      return `
       <h2>${esc(cat)}</h2>
-      <div class="card"><div class="info-list">
-        ${items.map((r) => `<a class="item" href="${esc(r.url)}" target="_blank" rel="noopener">${icon("doc")}
+      ${shelf.length ? `<div class="shelf">
+        ${shelf.map((r) => `<a class="book" href="${esc(r.url)}" target="_blank" rel="noopener">
+          <span class="cover"><img src="${esc(r.cover)}" alt="${esc(r.title)} cover" loading="lazy"></span>
+          <span class="bt">${esc(r.title)}</span>
+          <span class="bn">${esc(r.note || "")}</span></a>`).join("")}
+      </div>` : ""}
+      ${rows.length ? `<div class="card"><div class="info-list">
+        ${rows.map((r) => `<a class="item" href="${esc(r.url)}" target="_blank" rel="noopener">${icon("doc")}
           <div><div class="k">${esc(r.title)}</div>
           <div class="v">${esc(r.note || "")}</div></div></a>`).join("")}
-      </div></div>`).join("")}
+      </div></div>` : ""}`;
+    }).join("")}
   `;
 }
 

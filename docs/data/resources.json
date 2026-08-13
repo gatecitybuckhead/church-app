@@ -5,13 +5,15 @@
       "title": "Conversations",
       "category": "Books",
       "note": "Hazen & Hannah Stevens · 234 pages · PDF",
-      "url": "files/conversations.pdf"
+      "url": "files/conversations.pdf",
+      "cover": "art/book-conversations.jpg"
     },
     {
       "title": "Seven Seeds for Flourishing",
       "category": "Books",
       "note": "139 pages · PDF",
-      "url": "files/seven-seeds.pdf"
+      "url": "files/seven-seeds.pdf",
+      "cover": "art/book-seven-seeds.jpg"
     },
     {
       "title": "James — Session 1 Handout",
@@ -29,13 +31,15 @@
       "title": "Holy Week Prayer Guide",
       "category": "Prayer Guides",
       "note": "Daily prayer through Holy Week · PDF",
-      "url": "files/holy-week-prayer-guide.pdf"
+      "url": "files/holy-week-prayer-guide.pdf",
+      "cover": "art/book-holy-week-prayer-guide.jpg"
     },
     {
       "title": "Pentecost ATL Prayer Guide",
       "category": "Prayer Guides",
       "note": "Ten days of prayer toward Pentecost · PDF",
-      "url": "files/pentecost-prayer-guide.pdf"
+      "url": "files/pentecost-prayer-guide.pdf",
+      "cover": "art/book-pentecost-prayer-guide.jpg"
     }
   ]
 }

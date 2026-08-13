@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T20:28:17Z",
+  "generated": "2026-08-13T20:53:15Z",
   "source": "YouTube playlist RSS via tools/fetch_youtube.py",
   "sermons": [
     {
@@ -137,7 +137,8 @@
       "date": "2026-06-14",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/xxkWZkVE4zY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=xxkWZkVE4zY"
+      "url": "https://www.youtube.com/watch?v=xxkWZkVE4zY",
+      "notes": "files/notes/2026-06-07-manifest-part-7.pdf"
     },
     {
       "youtubeId": "L6wPzbtJsgA",
@@ -146,7 +147,8 @@
       "date": "2026-06-07",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/L6wPzbtJsgA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=L6wPzbtJsgA"
+      "url": "https://www.youtube.com/watch?v=L6wPzbtJsgA",
+      "notes": "files/notes/2026-06-07-manifest-part-7.pdf"
     },
     {
       "youtubeId": "hpSFmGO864M",
@@ -155,7 +157,8 @@
       "date": "2026-06-01",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/hpSFmGO864M/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=hpSFmGO864M"
+      "url": "https://www.youtube.com/watch?v=hpSFmGO864M",
+      "notes": "files/notes/2026-05-31-manifest-part-6.pdf"
     },
     {
       "youtubeId": "DiWwDWSSxgA",
@@ -218,7 +221,8 @@
       "date": "2026-05-24",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/STmZs0YS89I/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=STmZs0YS89I"
+      "url": "https://www.youtube.com/watch?v=STmZs0YS89I",
+      "notes": "files/notes/2026-05-10-manifest-part-4.pdf"
     },
     {
       "youtubeId": "WUBFJk2NTVQ",
@@ -227,7 +231,8 @@
       "date": "2026-05-18",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/WUBFJk2NTVQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=WUBFJk2NTVQ"
+      "url": "https://www.youtube.com/watch?v=WUBFJk2NTVQ",
+      "notes": "files/notes/2026-05-17-manifest-part-5.pdf"
     },
     {
       "youtubeId": "3xlFlvHetDM",
@@ -236,7 +241,8 @@
       "date": "2026-05-17",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/3xlFlvHetDM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3xlFlvHetDM"
+      "url": "https://www.youtube.com/watch?v=3xlFlvHetDM",
+      "notes": "files/notes/2026-05-17-manifest-part-5.pdf"
     },
     {
       "youtubeId": "sebxAZ9VfbU",
@@ -245,7 +251,8 @@
       "date": "2026-05-10",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/sebxAZ9VfbU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=sebxAZ9VfbU"
+      "url": "https://www.youtube.com/watch?v=sebxAZ9VfbU",
+      "notes": "files/notes/2026-05-10-manifest-part-4.pdf"
     },
     {
       "youtubeId": "J08lDdmZsoo",
@@ -254,7 +261,8 @@
       "date": "2026-05-09",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/J08lDdmZsoo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=J08lDdmZsoo"
+      "url": "https://www.youtube.com/watch?v=J08lDdmZsoo",
+      "notes": "files/notes/2026-05-03-manifest-part-3.pdf"
     },
     {
       "youtubeId": "V3zBsXtoJjo",
@@ -263,7 +271,8 @@
       "date": "2026-05-03",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/V3zBsXtoJjo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=V3zBsXtoJjo"
+      "url": "https://www.youtube.com/watch?v=V3zBsXtoJjo",
+      "notes": "files/notes/2026-05-03-manifest-part-3.pdf"
     },
     {
       "youtubeId": "7k3Uf_gA_fM",
@@ -272,7 +281,8 @@
       "date": "2026-04-27",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/7k3Uf_gA_fM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=7k3Uf_gA_fM"
+      "url": "https://www.youtube.com/watch?v=7k3Uf_gA_fM",
+      "notes": "files/notes/2026-04-26-manifest-part-2.pdf"
     },
     {
       "youtubeId": "kgwupngJMCo",
@@ -281,7 +291,8 @@
       "date": "2026-04-26",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/kgwupngJMCo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=kgwupngJMCo"
+      "url": "https://www.youtube.com/watch?v=kgwupngJMCo",
+      "notes": "files/notes/2026-04-26-manifest-part-2.pdf"
     },
     {
       "youtubeId": "ihSFSdNwEIA",
@@ -290,7 +301,8 @@
       "date": "2026-04-20",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/ihSFSdNwEIA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ihSFSdNwEIA"
+      "url": "https://www.youtube.com/watch?v=ihSFSdNwEIA",
+      "notes": "files/notes/2026-04-19-manifest-part-1.pdf"
     },
     {
       "youtubeId": "XCGLeI_L5jU",
@@ -299,7 +311,8 @@
       "date": "2026-04-19",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/XCGLeI_L5jU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=XCGLeI_L5jU"
+      "url": "https://www.youtube.com/watch?v=XCGLeI_L5jU",
+      "notes": "files/notes/2026-04-19-manifest-part-1.pdf"
     },
     {
       "youtubeId": "z8tK8ZDIkkc",
@@ -362,7 +375,8 @@
       "date": "2026-04-06",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/3VgWFgy99dg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3VgWFgy99dg"
+      "url": "https://www.youtube.com/watch?v=3VgWFgy99dg",
+      "notes": "files/notes/2026-04-05-covered-resurrection.pdf"
     },
     {
       "youtubeId": "9Iab3QBI5FY",
@@ -407,7 +421,8 @@
       "date": "2026-04-06",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/z4OThJduW4E/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=z4OThJduW4E"
+      "url": "https://www.youtube.com/watch?v=z4OThJduW4E",
+      "notes": "files/notes/2026-04-05-covered-resurrection.pdf"
     },
     {
       "youtubeId": "S0x5gQIf73w",
@@ -416,7 +431,8 @@
       "date": "2026-03-30",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/S0x5gQIf73w/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=S0x5gQIf73w"
+      "url": "https://www.youtube.com/watch?v=S0x5gQIf73w",
+      "notes": "files/notes/2026-03-29-wisdom-for-wealth-part-3.pdf"
     },
     {
       "youtubeId": "wpeZ4Sm3FvQ",
@@ -425,7 +441,8 @@
       "date": "2026-03-29",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/wpeZ4Sm3FvQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=wpeZ4Sm3FvQ"
+      "url": "https://www.youtube.com/watch?v=wpeZ4Sm3FvQ",
+      "notes": "files/notes/2026-03-29-wisdom-for-wealth-part-3.pdf"
     },
     {
       "youtubeId": "NHj4Z_wZKkU",
@@ -434,7 +451,8 @@
       "date": "2026-03-24",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/NHj4Z_wZKkU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=NHj4Z_wZKkU"
+      "url": "https://www.youtube.com/watch?v=NHj4Z_wZKkU",
+      "notes": "files/notes/2026-03-22-wisdom-for-wealth-part-2.pdf"
     },
     {
       "youtubeId": "x3rifMwFhO4",
@@ -443,7 +461,8 @@
       "date": "2026-03-23",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/x3rifMwFhO4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=x3rifMwFhO4"
+      "url": "https://www.youtube.com/watch?v=x3rifMwFhO4",
+      "notes": "files/notes/2026-03-22-wisdom-for-wealth-part-2.pdf"
     },
     {
       "youtubeId": "MyXJrHgIX3A",
@@ -452,7 +471,8 @@
       "date": "2026-03-16",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/MyXJrHgIX3A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=MyXJrHgIX3A"
+      "url": "https://www.youtube.com/watch?v=MyXJrHgIX3A",
+      "notes": "files/notes/2026-03-15-wisdom-for-wealth-part-1.pdf"
     },
     {
       "youtubeId": "amtttJznom0",
@@ -461,7 +481,8 @@
       "date": "2026-03-16",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/amtttJznom0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=amtttJznom0"
+      "url": "https://www.youtube.com/watch?v=amtttJznom0",
+      "notes": "files/notes/2026-03-15-wisdom-for-wealth-part-1.pdf"
     },
     {
       "youtubeId": "8_OZDW9I9E0",
@@ -470,7 +491,8 @@
       "date": "2026-03-13",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/8_OZDW9I9E0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=8_OZDW9I9E0"
+      "url": "https://www.youtube.com/watch?v=8_OZDW9I9E0",
+      "notes": "files/notes/2026-03-08-culture-of-hunger-part-3.pdf"
     },
     {
       "youtubeId": "pUSh3OxO4Oc",
@@ -479,7 +501,8 @@
       "date": "2026-03-09",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/pUSh3OxO4Oc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pUSh3OxO4Oc"
+      "url": "https://www.youtube.com/watch?v=pUSh3OxO4Oc",
+      "notes": "files/notes/2026-03-08-culture-of-hunger-part-3.pdf"
     },
     {
       "youtubeId": "GEE-irqGXPM",
@@ -488,7 +511,8 @@
       "date": "2026-03-02",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/GEE-irqGXPM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GEE-irqGXPM"
+      "url": "https://www.youtube.com/watch?v=GEE-irqGXPM",
+      "notes": "files/notes/2026-03-01-culture-of-hunger-part-2.pdf"
     },
     {
       "youtubeId": "0JrJKaiTV3U",
@@ -497,7 +521,8 @@
       "date": "2026-03-01",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/0JrJKaiTV3U/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=0JrJKaiTV3U"
+      "url": "https://www.youtube.com/watch?v=0JrJKaiTV3U",
+      "notes": "files/notes/2026-03-01-culture-of-hunger-part-2.pdf"
     },
     {
       "youtubeId": "UOxMZ2kUlaQ",
@@ -506,7 +531,8 @@
       "date": "2026-02-25",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/UOxMZ2kUlaQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=UOxMZ2kUlaQ"
+      "url": "https://www.youtube.com/watch?v=UOxMZ2kUlaQ",
+      "notes": "files/notes/2026-02-22-culture-of-hunger-part-1.pdf"
     },
     {
       "youtubeId": "7kMA7z7MzJQ",
@@ -515,7 +541,8 @@
       "date": "2026-02-24",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/7kMA7z7MzJQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=7kMA7z7MzJQ"
+      "url": "https://www.youtube.com/watch?v=7kMA7z7MzJQ",
+      "notes": "files/notes/2026-02-22-culture-of-hunger-part-1.pdf"
     },
     {
       "youtubeId": "z4Pe0OFBun4",
@@ -668,7 +695,8 @@
       "date": "2026-01-13",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/KyJdSdCH6gE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=KyJdSdCH6gE"
+      "url": "https://www.youtube.com/watch?v=KyJdSdCH6gE",
+      "notes": "files/notes/2026-01-11-start-strong-part-2.pdf"
     },
     {
       "youtubeId": "Swp-LSSHsEA",
@@ -677,7 +705,8 @@
       "date": "2026-01-11",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/Swp-LSSHsEA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Swp-LSSHsEA"
+      "url": "https://www.youtube.com/watch?v=Swp-LSSHsEA",
+      "notes": "files/notes/2026-01-11-start-strong-part-2.pdf"
     },
     {
       "youtubeId": "mBITzvOd2Wk",
@@ -713,7 +742,8 @@
       "date": "2026-01-06",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/PsH7CwBJhIc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=PsH7CwBJhIc"
+      "url": "https://www.youtube.com/watch?v=PsH7CwBJhIc",
+      "notes": "files/notes/2026-01-04-start-strong-part-1.pdf"
     },
     {
       "youtubeId": "pbvh1J4Dkjk",
@@ -722,7 +752,8 @@
       "date": "2026-01-04",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/pbvh1J4Dkjk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pbvh1J4Dkjk"
+      "url": "https://www.youtube.com/watch?v=pbvh1J4Dkjk",
+      "notes": "files/notes/2026-01-04-start-strong-part-1.pdf"
     },
     {
       "youtubeId": "w51OLZvp-hc",
@@ -731,7 +762,8 @@
       "date": "2025-12-23",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/w51OLZvp-hc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=w51OLZvp-hc"
+      "url": "https://www.youtube.com/watch?v=w51OLZvp-hc",
+      "notes": "files/notes/2025-12-21-messiah-part-3.pdf"
     },
     {
       "youtubeId": "RZkeYEj9GNk",
@@ -740,7 +772,8 @@
       "date": "2025-12-21",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/RZkeYEj9GNk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=RZkeYEj9GNk"
+      "url": "https://www.youtube.com/watch?v=RZkeYEj9GNk",
+      "notes": "files/notes/2025-12-21-messiah-part-3.pdf"
     },
     {
       "youtubeId": "kR5FXznB324",
@@ -749,7 +782,8 @@
       "date": "2025-12-16",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/kR5FXznB324/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=kR5FXznB324"
+      "url": "https://www.youtube.com/watch?v=kR5FXznB324",
+      "notes": "files/notes/2025-12-14-messiah-part-2.pdf"
     },
     {
       "youtubeId": "_Wc_0sAxd2g",
@@ -758,7 +792,8 @@
       "date": "2025-12-14",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/_Wc_0sAxd2g/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=_Wc_0sAxd2g"
+      "url": "https://www.youtube.com/watch?v=_Wc_0sAxd2g",
+      "notes": "files/notes/2025-12-14-messiah-part-2.pdf"
     },
     {
       "youtubeId": "plm2LYdikdo",
@@ -767,7 +802,8 @@
       "date": "2025-12-08",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/plm2LYdikdo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=plm2LYdikdo"
+      "url": "https://www.youtube.com/watch?v=plm2LYdikdo",
+      "notes": "files/notes/2025-12-07-messiah-part-1.pdf"
     },
     {
       "youtubeId": "gtLscNv2kNg",
@@ -776,7 +812,8 @@
       "date": "2025-12-07",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/gtLscNv2kNg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=gtLscNv2kNg"
+      "url": "https://www.youtube.com/watch?v=gtLscNv2kNg",
+      "notes": "files/notes/2025-12-07-messiah-part-1.pdf"
     },
     {
       "youtubeId": "NO5dGsYHmXw",
@@ -785,7 +822,8 @@
       "date": "2025-11-24",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/NO5dGsYHmXw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=NO5dGsYHmXw"
+      "url": "https://www.youtube.com/watch?v=NO5dGsYHmXw",
+      "notes": "files/notes/2025-11-23-b2bab-part-4.pdf"
     },
     {
       "youtubeId": "aWj582bokQU",
@@ -794,7 +832,8 @@
       "date": "2025-11-23",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/aWj582bokQU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=aWj582bokQU"
+      "url": "https://www.youtube.com/watch?v=aWj582bokQU",
+      "notes": "files/notes/2025-11-23-b2bab-part-4.pdf"
     },
     {
       "youtubeId": "reGNwcnYzsw",
@@ -803,7 +842,8 @@
       "date": "2025-11-17",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/reGNwcnYzsw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=reGNwcnYzsw"
+      "url": "https://www.youtube.com/watch?v=reGNwcnYzsw",
+      "notes": "files/notes/2025-11-16-b2bab-part-3.pdf"
     },
     {
       "youtubeId": "vPf3bnWm-Wg",
@@ -812,7 +852,8 @@
       "date": "2025-11-17",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/vPf3bnWm-Wg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=vPf3bnWm-Wg"
+      "url": "https://www.youtube.com/watch?v=vPf3bnWm-Wg",
+      "notes": "files/notes/2025-11-16-b2bab-part-3.pdf"
     },
     {
       "youtubeId": "kQGxrmpZJXA",
@@ -821,7 +862,8 @@
       "date": "2025-11-10",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/kQGxrmpZJXA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=kQGxrmpZJXA"
+      "url": "https://www.youtube.com/watch?v=kQGxrmpZJXA",
+      "notes": "files/notes/2025-11-09-b2bab-part-2.pdf"
     },
     {
       "youtubeId": "u8ZQrSaHHQY",
@@ -830,7 +872,8 @@
       "date": "2025-11-10",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/u8ZQrSaHHQY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=u8ZQrSaHHQY"
+      "url": "https://www.youtube.com/watch?v=u8ZQrSaHHQY",
+      "notes": "files/notes/2025-11-09-b2bab-part-2.pdf"
     },
     {
       "youtubeId": "7D1i0n9PrcU",
@@ -839,7 +882,8 @@
       "date": "2025-11-03",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/7D1i0n9PrcU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=7D1i0n9PrcU"
+      "url": "https://www.youtube.com/watch?v=7D1i0n9PrcU",
+      "notes": "files/notes/2025-11-02-b2bab-part-1.pdf"
     },
     {
       "youtubeId": "FfRgJl39ZQw",
@@ -848,7 +892,8 @@
       "date": "2025-11-03",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/FfRgJl39ZQw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=FfRgJl39ZQw"
+      "url": "https://www.youtube.com/watch?v=FfRgJl39ZQw",
+      "notes": "files/notes/2025-11-02-b2bab-part-1.pdf"
     },
     {
       "youtubeId": "ILk3mmt8V_M",
@@ -857,7 +902,8 @@
       "date": "2025-10-21",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/ILk3mmt8V_M/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ILk3mmt8V_M"
+      "url": "https://www.youtube.com/watch?v=ILk3mmt8V_M",
+      "notes": "files/notes/2025-10-19-legacy-part-10.pdf"
     },
     {
       "youtubeId": "Jl2NN4Y9f8E",
@@ -866,7 +912,8 @@
       "date": "2025-10-19",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/Jl2NN4Y9f8E/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Jl2NN4Y9f8E"
+      "url": "https://www.youtube.com/watch?v=Jl2NN4Y9f8E",
+      "notes": "files/notes/2025-10-19-legacy-part-10.pdf"
     },
     {
       "youtubeId": "xPLuAC_EH5I",
@@ -875,7 +922,8 @@
       "date": "2025-10-13",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/xPLuAC_EH5I/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=xPLuAC_EH5I"
+      "url": "https://www.youtube.com/watch?v=xPLuAC_EH5I",
+      "notes": "files/notes/2025-10-12-legacy-part-9.pdf"
     },
     {
       "youtubeId": "Om9Y4mtYPTs",
@@ -884,7 +932,8 @@
       "date": "2025-10-12",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/Om9Y4mtYPTs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Om9Y4mtYPTs"
+      "url": "https://www.youtube.com/watch?v=Om9Y4mtYPTs",
+      "notes": "files/notes/2025-10-12-legacy-part-9.pdf"
     },
     {
       "youtubeId": "1GSsslFxfH8",
@@ -893,7 +942,8 @@
       "date": "2025-10-06",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/1GSsslFxfH8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1GSsslFxfH8"
+      "url": "https://www.youtube.com/watch?v=1GSsslFxfH8",
+      "notes": "files/notes/2025-10-05-legacy-part-8.pdf"
     },
     {
       "youtubeId": "4NQVOj66slw",
@@ -902,7 +952,8 @@
       "date": "2025-10-05",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/4NQVOj66slw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=4NQVOj66slw"
+      "url": "https://www.youtube.com/watch?v=4NQVOj66slw",
+      "notes": "files/notes/2025-10-05-legacy-part-8.pdf"
     },
     {
       "youtubeId": "j5UeH-dfX_o",
@@ -911,7 +962,8 @@
       "date": "2025-09-29",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/j5UeH-dfX_o/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=j5UeH-dfX_o"
+      "url": "https://www.youtube.com/watch?v=j5UeH-dfX_o",
+      "notes": "files/notes/2025-09-28-legacy-part-7.pdf"
     },
     {
       "youtubeId": "f7fZdn2SnMw",
@@ -920,7 +972,8 @@
       "date": "2025-09-28",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/f7fZdn2SnMw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=f7fZdn2SnMw"
+      "url": "https://www.youtube.com/watch?v=f7fZdn2SnMw",
+      "notes": "files/notes/2025-09-28-legacy-part-7.pdf"
     },
     {
       "youtubeId": "FAodvdaItTY",
@@ -929,7 +982,8 @@
       "date": "2025-09-22",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/FAodvdaItTY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=FAodvdaItTY"
+      "url": "https://www.youtube.com/watch?v=FAodvdaItTY",
+      "notes": "files/notes/2025-09-21-legacy-part-6.pdf"
     },
     {
       "youtubeId": "bfpLN3YEB14",
@@ -938,7 +992,8 @@
       "date": "2025-09-21",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/bfpLN3YEB14/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=bfpLN3YEB14"
+      "url": "https://www.youtube.com/watch?v=bfpLN3YEB14",
+      "notes": "files/notes/2025-09-21-legacy-part-6.pdf"
     },
     {
       "youtubeId": "SiBCfsrCGUU",
@@ -947,7 +1002,8 @@
       "date": "2025-09-15",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/SiBCfsrCGUU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=SiBCfsrCGUU"
+      "url": "https://www.youtube.com/watch?v=SiBCfsrCGUU",
+      "notes": "files/notes/2025-09-14-legacy-part-5.pdf"
     },
     {
       "youtubeId": "7vMl2JBpl8o",
@@ -956,7 +1012,8 @@
       "date": "2025-09-14",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/7vMl2JBpl8o/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=7vMl2JBpl8o"
+      "url": "https://www.youtube.com/watch?v=7vMl2JBpl8o",
+      "notes": "files/notes/2025-09-14-legacy-part-5.pdf"
     },
     {
       "youtubeId": "GZEzAME2VQM",
@@ -965,7 +1022,8 @@
       "date": "2025-09-08",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/GZEzAME2VQM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GZEzAME2VQM"
+      "url": "https://www.youtube.com/watch?v=GZEzAME2VQM",
+      "notes": "files/notes/2025-09-07-legacy-week-4-remember.pdf"
     },
     {
       "youtubeId": "S298c-fb_fk",
@@ -974,7 +1032,8 @@
       "date": "2025-09-07",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/S298c-fb_fk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=S298c-fb_fk"
+      "url": "https://www.youtube.com/watch?v=S298c-fb_fk",
+      "notes": "files/notes/2025-09-07-legacy-week-4-remember.pdf"
     },
     {
       "youtubeId": "oDRRUxQurIc",
@@ -983,7 +1042,8 @@
       "date": "2025-09-01",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/oDRRUxQurIc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=oDRRUxQurIc"
+      "url": "https://www.youtube.com/watch?v=oDRRUxQurIc",
+      "notes": "files/notes/2025-08-31-legacy-week-3.pdf"
     },
     {
       "youtubeId": "kY4W1poPGds",
@@ -992,7 +1052,8 @@
       "date": "2025-08-31",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/kY4W1poPGds/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=kY4W1poPGds"
+      "url": "https://www.youtube.com/watch?v=kY4W1poPGds",
+      "notes": "files/notes/2025-08-31-legacy-week-3.pdf"
     },
     {
       "youtubeId": "xLqBQdbyOlw",
@@ -1010,7 +1071,8 @@
       "date": "2025-08-24",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/0MKoiPB4tqU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=0MKoiPB4tqU"
+      "url": "https://www.youtube.com/watch?v=0MKoiPB4tqU",
+      "notes": "files/notes/2025-08-24-legacy-week-2.pdf"
     },
     {
       "youtubeId": "0DuZdicNJAo",
@@ -1019,7 +1081,8 @@
       "date": "2025-08-17",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/0DuZdicNJAo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=0DuZdicNJAo"
+      "url": "https://www.youtube.com/watch?v=0DuZdicNJAo",
+      "notes": "files/notes/2025-08-17-legacy-week-1.pdf"
     },
     {
       "youtubeId": "vpQbEkJooIE",
@@ -1037,7 +1100,8 @@
       "date": "2025-07-27",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/7AaGtVWS69I/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=7AaGtVWS69I"
+      "url": "https://www.youtube.com/watch?v=7AaGtVWS69I",
+      "notes": "files/notes/2025-07-27-state-of-the-church.pdf"
     },
     {
       "youtubeId": "DEPhml7JKoo",
@@ -1046,7 +1110,8 @@
       "date": "2025-07-14",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/DEPhml7JKoo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=DEPhml7JKoo"
+      "url": "https://www.youtube.com/watch?v=DEPhml7JKoo",
+      "notes": "files/notes/2025-07-13-conversations-part-9.pdf"
     },
     {
       "youtubeId": "pSsq5UR5dvU",
@@ -1055,7 +1120,8 @@
       "date": "2025-07-07",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/pSsq5UR5dvU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pSsq5UR5dvU"
+      "url": "https://www.youtube.com/watch?v=pSsq5UR5dvU",
+      "notes": "files/notes/2025-07-06-conversations-part-8.pdf"
     },
     {
       "youtubeId": "p75LIUiN10Y",
@@ -1064,7 +1130,8 @@
       "date": "2025-06-30",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/p75LIUiN10Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=p75LIUiN10Y"
+      "url": "https://www.youtube.com/watch?v=p75LIUiN10Y",
+      "notes": "files/notes/2025-06-29-conversations-part-7.pdf"
     },
     {
       "youtubeId": "qZTlI8a7bzA",
@@ -1073,7 +1140,8 @@
       "date": "2025-06-23",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/qZTlI8a7bzA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=qZTlI8a7bzA"
+      "url": "https://www.youtube.com/watch?v=qZTlI8a7bzA",
+      "notes": "files/notes/2025-06-22-conversations-part-6.pdf"
     },
     {
       "youtubeId": "sTn3zc32hiY",
@@ -1082,7 +1150,8 @@
       "date": "2025-06-16",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/sTn3zc32hiY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=sTn3zc32hiY"
+      "url": "https://www.youtube.com/watch?v=sTn3zc32hiY",
+      "notes": "files/notes/2025-06-15-conversations-part-5.pdf"
     },
     {
       "youtubeId": "E0MDn5wb3HE",
@@ -1091,7 +1160,8 @@
       "date": "2025-06-02",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/E0MDn5wb3HE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=E0MDn5wb3HE"
+      "url": "https://www.youtube.com/watch?v=E0MDn5wb3HE",
+      "notes": "files/notes/2025-06-01-conversations-part-4.pdf"
     },
     {
       "youtubeId": "Dq6MF0xEkwU",
@@ -1100,7 +1170,8 @@
       "date": "2025-05-25",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/Dq6MF0xEkwU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Dq6MF0xEkwU"
+      "url": "https://www.youtube.com/watch?v=Dq6MF0xEkwU",
+      "notes": "files/notes/2025-05-25-conversations-part-3.pdf"
     },
     {
       "youtubeId": "zwjtTMLuqQQ",
@@ -1109,7 +1180,8 @@
       "date": "2025-05-19",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/zwjtTMLuqQQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=zwjtTMLuqQQ"
+      "url": "https://www.youtube.com/watch?v=zwjtTMLuqQQ",
+      "notes": "files/notes/2025-05-18-conversations-part-2.pdf"
     },
     {
       "youtubeId": "Gy4XsBoWSjE",
@@ -1118,7 +1190,8 @@
       "date": "2025-05-12",
       "kind": "message",
       "thumb": "https://i.ytimg.com/vi/Gy4XsBoWSjE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Gy4XsBoWSjE"
+      "url": "https://www.youtube.com/watch?v=Gy4XsBoWSjE",
+      "notes": "files/notes/2025-05-11-conversations-part-1.pdf"
     },
     {
       "youtubeId": "G1FmqySPXK4",
@@ -1127,7 +1200,8 @@
       "date": "2025-05-04",
       "kind": "service",
       "thumb": "https://i.ytimg.com/vi/G1FmqySPXK4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=G1FmqySPXK4"
+      "url": "https://www.youtube.com/watch?v=G1FmqySPXK4",
+      "notes": "files/notes/2025-05-04-state-of-the-church.pdf"
     }
   ]
 }
