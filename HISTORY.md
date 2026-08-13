@@ -111,10 +111,35 @@ Open Graph and Twitter tags added — they did not exist before, so a shared lin
 previewed as a bare grey URL. They necessarily hard-code the github.io address;
 see the warning in CLAUDE.md before moving to a custom domain.
 
+### Same day — it keeps itself current now
+
+- **`church-app-refresh-tuesday`** (CLI scheduler, Tuesdays ~9:24am) runs
+  fetch → build → check_new, publishes if anything changed, and texts Andrew
+  only when there's something to say. **Tuesday, not Monday, at Andrew's
+  call** — the team often hasn't finished uploading Sunday's video by Monday.
+  It pushes directly and must never call `Publish to GitHub.command`, which
+  waits on a keypress and would hang the run forever.
+- **`tools/check_new.py`** closes the failure mode that would otherwise go
+  unnoticed for weeks: `fetch_youtube.py` only reads playlists already named in
+  `series.json`, so a brand-new series is invisible until someone adds it — the
+  app looks healthy while running a fortnight behind. Family Matters already
+  hit this and had to be added by hand. Verified the alarm actually fires by
+  deleting a known sermon from `sermons.json` and watching it report the video
+  by name and exit 1, then restoring.
+- **James series art corrected.** It was showing the reading-plan scan
+  (`James-Scan-Slide-1920x1080.png`). The real title slide came out of
+  `James_Session_1_FINAL.key` (a Keynote file is a zip: `Data/image1-8.png`);
+  the Session 2 `.pptx` carries the same art at `ppt/media/image-1-1.jpg`.
+
+**A caching scare worth not repeating.** After deploying the new James art the
+app still showed the old image through a hard reload, which looked like a
+publishing bug. It wasn't: the file on the server was byte-identical to local,
+and GitHub Pages serves assets with `cache-control: max-age=600`. It was the
+browser's own image cache, and it self-heals in ten minutes. Before treating
+stale assets as a bug, download what the server is actually serving and compare
+— `curl -I` the asset and read the cache headers.
+
 **Open items**
-- Weekly auto-refresh of the sermon library is still not built. This is the
-  highest-value remaining item: nobody will remember to run `fetch_youtube.py`,
-  and an app whose newest message is three weeks old gets abandoned.
 - A QR-code slide for a Sunday, pointing at `/install.html`. `Team Hub/tools/
   qr.py` is vendored and reusable.
 - Series art for the other 16 series; speaker/scripture are still empty.
