@@ -60,10 +60,29 @@ twice.
   three 404'd. Real paths pulled off the live site: `/pledge`, `/new-here`,
   `/get-connected`, `/buckcity-kids`.
 
+### Later the same day — books, series art, publish prep
+
+- **Andrew: post the books free.** *Conversations* (234pp, Hazen & Hannah
+  Stevens) and *Seven Seeds for Flourishing* (139pp) are now in the Library as
+  free downloads. Worth knowing: the Pages repo is public, so these are
+  downloadable by anyone with the URL, not only the congregation.
+- **One image per series on message rows**, replacing a wall of unrelated video
+  stills. Real artwork for Family Matters, Journey Through James and Covered,
+  pulled from `01_Current Service Assets` and `05_Special Services` and resized
+  with `sips`. Every other series falls back to its FIRST video's thumbnail,
+  which is normally the launch graphic — verified on Detox, where all four rows
+  correctly share the Pt 1 image.
+- **Home was showing a two-week-old message.** `latestSermon()` preferred a
+  message-only cut over the actual newest sermon, so Family Matters launching
+  as a full service on 8/9 left Journey Through James (8/1) on the front page.
+  Now it takes the newest outright and labels the badge by kind.
+
 **Open items**
-- Repo `gatecitybuckhead/church-app` isn't created yet, so nothing is pushed.
-- GitHub Pages needs pointing at `main` → `/docs`.
-- The books question above.
+- **Repo `gatecitybuckhead/church-app` still needs creating** — I'm not
+  permitted to create GitHub repos from here (blocked both via the API and the
+  `gh` CLI), so this one step is Andrew's. Everything else is ready: branch is
+  `main`, the remote is already set, 3 commits, `build.py` clean.
+- GitHub Pages then needs pointing at `main` → `/docs`.
 - `07_Marketing and Communications/01_Logos` is empty, so the icon is
   hand-generated. Swap it when a real logo lands.
 - Noticed in passing: GCB already has Church Center
