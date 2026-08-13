@@ -183,3 +183,10 @@ stale assets as a bug, download what the server is actually serving and compare
   instead of a free PDF (only an epub exists for B2BAB). The "Legacy book"
   is the Legacy Prayer & Scripture Guide (10-week gdoc from Virtual
   Prayer/Legacy) — exported, Tab-1 stripped, filed under Prayer Guides.
+- Home "Recent" fix (Andrew's catch): it listed the 4 newest videos of any
+  kind, so a Sunday appeared twice — message cut AND full service (the
+  services' vaguer YouTube titles read as duplicate "Part 1"s). New
+  recentTeaching() keeps the message cut and shows a service only when no
+  message cut exists within [-1, +14] days for that series (message uploads
+  lag the Sunday). Watch/series pages were already right — they split the
+  two cuts into tabs on purpose.
