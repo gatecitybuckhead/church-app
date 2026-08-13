@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GateCity Buckhead</title>
+<meta name="description" content="Messages, teaching, and life together at GateCity Buckhead — Sundays at 11am in Atlanta.">
+<meta name="theme-color" content="#046A38" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1310" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="GateCity">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <button class="back" id="backBtn" hidden aria-label="Back">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <div class="brand">
+    <span class="mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M4 21V11a8 8 0 0 1 16 0v10M12 21V11"/></svg>
+    </span>
+    <span class="wordmark">GateCity <b>Buckhead</b></span>
+  </div>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<nav class="tabbar" id="tabbar" aria-label="Main">
+  <a href="#/" data-tab="home">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21H3z"/></svg>
+    <span>Home</span>
+  </a>
+  <a href="#/watch" data-tab="watch">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="3"/><path d="M10 9.5l5 3-5 3z"/></svg>
+    <span>Watch</span>
+  </a>
+  <a href="#/library" data-tab="library">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M4 17.5h15"/></svg>
+    <span>Library</span>
+  </a>
+  <a href="#/connect" data-tab="connect">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="3.2"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg>
+    <span>Connect</span>
+  </a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

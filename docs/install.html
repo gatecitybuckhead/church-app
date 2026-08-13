@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Add GateCity to your home screen</title>
+<meta name="theme-color" content="#046A38" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1310" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+<style>
+  body { padding-bottom: 40px; }
+  .steps { counter-reset: step; display: flex; flex-direction: column; gap: 12px; margin-top: 18px; }
+  .step {
+    display: flex; gap: 14px; align-items: flex-start;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 15px 16px;
+  }
+  .step::before {
+    counter-increment: step; content: counter(step);
+    display: grid; place-items: center; flex: none;
+    width: 27px; height: 27px; border-radius: 50%;
+    background: var(--brand); color: var(--on-brand);
+    font-size: 14px; font-weight: 750;
+  }
+  .step p { margin: 0; }
+  .step .t { font-weight: 680; }
+  .step .d { color: var(--muted); font-size: 14px; margin-top: 3px; }
+  .glyph {
+    display: inline-grid; place-items: center;
+    width: 22px; height: 22px; vertical-align: -6px;
+    border-radius: 6px; background: var(--brand-soft); color: var(--brand);
+  }
+  .glyph svg { width: 14px; height: 14px; }
+  .tabs { display: flex; gap: 8px; margin-top: 20px; }
+  .tabs button {
+    flex: 1; padding: 10px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--line); background: var(--surface); font-weight: 650;
+  }
+  .tabs button[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: var(--on-brand); }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="back" href="index.html" aria-label="Back to the app">
+    <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+  </a>
+  <div class="brand">
+    <span class="mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M4 21V11a8 8 0 0 1 16 0v10M12 21V11"/></svg>
+    </span>
+    <span class="wordmark">GateCity <b>Buckhead</b></span>
+  </div>
+</header>
+
+<main>
+  <h1>Put us on your home screen</h1>
+  <p class="sub">It takes about ten seconds, and afterwards GateCity opens like
+  any other app — its own icon, full screen, no browser bar. There's nothing to
+  download and no account to make.</p>
+
+  <div class="tabs" role="group" aria-label="Choose your phone">
+    <button id="tabIos" aria-pressed="true">iPhone / iPad</button>
+    <button id="tabAndroid" aria-pressed="false">Android</button>
+  </div>
+
+  <div id="ios">
+    <div class="steps">
+      <div class="step"><p>
+        <span class="t">Open this page in Safari</span>
+        <span class="d">It has to be Safari — Chrome on iPhone can't add to the
+        home screen. If you're reading this in another app, tap the ••• menu and
+        choose “Open in Safari”.</span>
+      </p></div>
+      <div class="step"><p>
+        <span class="t">Tap the Share button
+          <span class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3M8.5 6.5 12 3l3.5 3.5"/>
+            <path d="M5 13v6.5A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5V13"/></svg></span>
+        </span>
+        <span class="d">The square with an arrow coming out of it — at the bottom
+        of the screen on an iPhone, at the top on an iPad.</span>
+      </p></div>
+      <div class="step"><p>
+        <span class="t">Scroll down and tap “Add to Home Screen”</span>
+        <span class="d">You may need to scroll a little way down the list of options.</span>
+      </p></div>
+      <div class="step"><p>
+        <span class="t">Tap “Add”</span>
+        <span class="d">The GateCity icon appears on your home screen. That's it.</span>
+      </p></div>
+    </div>
+  </div>
+
+  <div id="android" hidden>
+    <div class="steps">
+      <div class="step"><p>
+        <span class="t">Open this page in Chrome</span>
+      </p></div>
+      <div class="step"><p>
+        <span class="t">Tap the ⋮ menu, top right</span>
+      </p></div>
+      <div class="step"><p>
+        <span class="t">Tap “Install app” or “Add to Home screen”</span>
+        <span class="d">Chrome sometimes offers this as a banner at the bottom
+        of the screen instead — either one works.</span>
+      </p></div>
+    </div>
+  </div>
+
+  <p class="note">Trouble with it? Grab any of us on a Sunday and we'll set it
+  up on your phone in a moment.</p>
+
+  <p style="margin-top:22px">
+    <a class="btn primary" href="index.html">Back to the app</a>
+  </p>
+</main>
+
+<script>
+  const ios = document.getElementById("ios");
+  const android = document.getElementById("android");
+  const tabIos = document.getElementById("tabIos");
+  const tabAndroid = document.getElementById("tabAndroid");
+
+  function show(which) {
+    const onIos = which === "ios";
+    ios.hidden = !onIos;
+    android.hidden = onIos;
+    tabIos.setAttribute("aria-pressed", String(onIos));
+    tabAndroid.setAttribute("aria-pressed", String(!onIos));
+  }
+  tabIos.addEventListener("click", () => show("ios"));
+  tabAndroid.addEventListener("click", () => show("android"));
+
+  // Open on the tab that matches the phone in the reader's hand.
+  if (/android/i.test(navigator.userAgent)) show("android");
+</script>
+</body>
+</html>

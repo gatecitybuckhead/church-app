@@ -1,0 +1,29 @@
+{
+  "_comment": "The Library tab. Files live in docs/files/ and are served from the same site, so they work offline once opened. 'url' is relative to docs/. To add one: drop the PDF in docs/files/, add an entry here, push.",
+  "resources": [
+    {
+      "title": "James — Session 1 Handout",
+      "category": "Sermon Notes",
+      "note": "The Perseverance of Wisdom and Love · PDF",
+      "url": "files/james-session-1-handout.pdf"
+    },
+    {
+      "title": "James — Session 2 Handout",
+      "category": "Sermon Notes",
+      "note": "Desire, Deception, Divine Provision & Devotion · PDF",
+      "url": "files/james-session-2-handout.pdf"
+    },
+    {
+      "title": "Holy Week Prayer Guide",
+      "category": "Prayer Guides",
+      "note": "Daily prayer through Holy Week · PDF",
+      "url": "files/holy-week-prayer-guide.pdf"
+    },
+    {
+      "title": "Pentecost ATL Prayer Guide",
+      "category": "Prayer Guides",
+      "note": "Ten days of prayer toward Pentecost · PDF",
+      "url": "files/pentecost-prayer-guide.pdf"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_comment": "Congregation-facing events only. Hand-curated from '2026 At-a-Glance Calendar' in 02_Weekly Operating Docs, which is an INTERNAL staff document — it also holds birthdays, finance meetings, staff retreats and leadership offsites. Never publish that calendar wholesale; copy across only what the whole church is invited to. Past events are hidden by the app automatically.",
+  "events": [
+    { "date": "2026-08-16", "title": "New Member Lunch", "note": "After the service" },
+    { "date": "2026-08-16", "title": "Discipleship Cohort begins", "note": "" },
+    { "date": "2026-08-30", "title": "Child Dedication", "note": "During the Family Service" },
+    { "date": "2026-08-30", "title": "Communion", "note": "Family Matters — Family Service" },
+    { "date": "2026-09-06", "title": "Prayer Leader Lunch", "note": "" },
+    { "date": "2026-09-27", "title": "Communion", "note": "" }
+  ]
+}

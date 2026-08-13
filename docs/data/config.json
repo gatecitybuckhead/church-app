@@ -1,0 +1,32 @@
+{
+  "church": {
+    "name": "GateCity Buckhead",
+    "shortName": "GateCity",
+    "tagline": "Encounter God. Live with Purpose. Find Family.",
+    "website": "https://www.gatecitybuckhead.com/",
+    "serviceTime": "Sundays at 11:00am",
+    "venue": "Atlanta International School",
+    "address": "2890 N Fulton Dr NE, Atlanta, GA 30305",
+    "mapUrl": "https://maps.google.com/?q=2890+N+Fulton+Dr+NE+Atlanta+GA+30305",
+    "parkingNote": "Front-row guest parking at the building entrance. Overflow in the Gate A and Gate E lots off Peachtree Ave NE."
+  },
+  "youtube": {
+    "channelId": "UCPCYw3AOeXT5GInwE2RcRXA",
+    "handle": "@GateCityBuckhead",
+    "channelUrl": "https://www.youtube.com/@GateCityBuckhead"
+  },
+  "_links_note": "Every URL here was checked live on 2026-08-13 and returned 200. If the website gets rearranged, re-check them — a dead link in the app is invisible until someone taps it.",
+  "links": [
+    { "label": "Give", "icon": "gift", "url": "https://www.gatecitybuckhead.com/pledge", "note": "Give and pledge" },
+    { "label": "I'm New", "icon": "wave", "url": "https://www.gatecitybuckhead.com/new-here", "note": "Plan your first visit" },
+    { "label": "Next Steps", "icon": "steps", "url": "https://www.gatecitybuckhead.com/get-connected", "note": "Get connected here" },
+    { "label": "Buckcity Kids", "icon": "wave", "url": "https://www.gatecitybuckhead.com/buckcity-kids", "note": "For our kids" },
+    { "label": "Instagram", "icon": "instagram", "url": "https://www.instagram.com/gcbuckhead", "note": "@gcbuckhead" },
+    { "label": "YouTube", "icon": "play", "url": "https://www.youtube.com/@GateCityBuckhead", "note": "Every message" }
+  ],
+  "rhythms": [
+    { "name": "Sunday Gathering", "when": "Sundays, 11:00am", "where": "Atlanta International School" },
+    { "name": "Prayer Meetings", "when": "Monday–Friday mornings", "where": "Zoom" },
+    { "name": "Midweek Groups", "when": "Wednesdays", "where": "Homes across the city" }
+  ]
+}

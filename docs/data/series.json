@@ -1,0 +1,138 @@
+{
+  "_comment": "Series shown in Watch. 'messages' = Message Only playlist (the teaching alone). 'full' = Worship & Message playlist (the whole service). Either may be null. Order here is display order; the app sorts by latest sermon date anyway.",
+  "series": [
+    {
+      "id": "family-matters",
+      "title": "Family Matters",
+      "blurb": "What it means to belong to the family of God — and to each other.",
+      "started": "2026-08-09",
+      "playlists": { "messages": null, "full": null }
+    },
+    {
+      "id": "journey-through-james",
+      "title": "Journey Through James",
+      "blurb": "A verse-by-verse walk through the book of James: faith that shows up in how we live.",
+      "started": "2026-07-19",
+      "playlists": { "messages": "PLW-eBrvAVUWU", "full": "PLI-tNUgWGWf4" }
+    },
+    {
+      "id": "manifest",
+      "title": "Manifest",
+      "blurb": "Believing God to make His presence and promises visible among us.",
+      "started": "2026-04-19",
+      "playlists": { "messages": "PLZe6ANQOBlosJM9tnNP59H_q8csnFx_HC", "full": "PLZe6ANQOBlos7o_TUzLM8Kz2wzcIQ7EL8" }
+    },
+    {
+      "id": "covered",
+      "title": "Covered",
+      "blurb": "Resurrection Sunday 2026 — the covering we could never earn.",
+      "started": "2026-03-29",
+      "playlists": { "messages": null, "full": "PLZe6ANQOBlouBPjtmSF_9fmTZ4M6xbZf_" }
+    },
+    {
+      "id": "wisdom-for-wealth",
+      "title": "Wisdom for Wealth",
+      "blurb": "What Scripture actually says about money, stewardship, and generosity.",
+      "started": "2026-03-15",
+      "playlists": { "messages": "PLZe6ANQOBlot2sAtr503IU-J_2aHDJMyY", "full": "PLZe6ANQOBlovYTp_4Sae6D4YnSnkwqOKe" }
+    },
+    {
+      "id": "detox",
+      "title": "Detox",
+      "blurb": "Clearing out what crowds God out.",
+      "started": "2026-02-08",
+      "playlists": { "messages": "PLCPKL77uWapo", "full": "PLZe6ANQOBlouABLcgOVhSshgHf7DJv4XV" }
+    },
+    {
+      "id": "culture-of-hunger",
+      "title": "Culture of Hunger",
+      "blurb": "Building a community that stays hungry for God's presence.",
+      "started": "2026-02-01",
+      "playlists": { "messages": "PLZe6ANQOBloubHj2gWM9sYuhLbcB5RlTm", "full": "PLZe6ANQOBlosEpURijsVkDV0_SQV2P90M" }
+    },
+    {
+      "id": "start-strong",
+      "title": "Start Strong",
+      "blurb": "Setting the foundation for a new year.",
+      "started": "2026-01-04",
+      "playlists": { "messages": "PLZe6ANQOBlot3N_siH-z_VKBkwDrWVaOX", "full": "PLZe6ANQOBlot1C7FcP3tNGC2Rn17sGWIX" }
+    },
+    {
+      "id": "messiah",
+      "title": "Messiah",
+      "blurb": "Advent at GateCity — the One the whole story was pointing to.",
+      "started": "2025-12-07",
+      "playlists": { "messages": "PLZe6ANQOBlouvE1j50jNRp2why_oRXbQE", "full": "PLZe6ANQOBlotnpdBVtu8QnL24_cqnzcAY" }
+    },
+    {
+      "id": "blessed-to-be-a-blessing",
+      "title": "Blessed to be a Blessing",
+      "blurb": "Generosity, missions, and the reason we were blessed in the first place.",
+      "started": "2025-11-23",
+      "playlists": { "messages": "PLZe6ANQOBlouPRiUTUEJNNRwByrIyUxrN", "full": "PLZe6ANQOBlospN60PXlXbESzOnD3T_1Ms" }
+    },
+    {
+      "id": "legacy",
+      "title": "Legacy",
+      "blurb": "What we hand to the generation behind us.",
+      "started": "2025-10-05",
+      "playlists": { "messages": "PLZe6ANQOBloucCaK3GNvv24zR06qJRL1c", "full": "PLZe6ANQOBlovex7BuKytbWcI0AfAI7G4J" }
+    },
+    {
+      "id": "conversations",
+      "title": "Conversations",
+      "blurb": "Honest dialogue on the questions the church usually avoids.",
+      "started": "2025-09-01",
+      "playlists": { "messages": "PLZe6ANQOBlovhSSRNNxxELaJFEWuDNi_g", "full": null }
+    },
+    {
+      "id": "encounter-sundays",
+      "title": "Encounter Sundays",
+      "blurb": "Extended worship and ministry — space to meet with God.",
+      "started": "2025-09-01",
+      "playlists": { "messages": null, "full": "PLZe6ANQOBlosx1paPzcFzskVg3tpxoi_X" }
+    },
+    {
+      "id": "just-the-text",
+      "title": "Just the Text",
+      "blurb": "Expository teaching on the Sunday scripture.",
+      "started": "2025-09-01",
+      "playlists": { "messages": "PLZe6ANQOBlostUB139qOvfa4v2PF4S76o", "full": null }
+    },
+    {
+      "id": "bible-intensives",
+      "title": "Bible Intensives",
+      "blurb": "Deeper-dive teaching sessions.",
+      "started": "2025-09-01",
+      "playlists": { "messages": "PLZe6ANQOBlovPFAOxsBkT-acghlqSP687", "full": null }
+    },
+    {
+      "id": "intersection-sunday",
+      "title": "Intersection Sunday",
+      "blurb": "Guest voices from across the city.",
+      "started": "2026-01-18",
+      "playlists": { "messages": null, "full": "PLZe6ANQOBloscUOUzaWWTFdshC9xxrWgK" }
+    },
+    {
+      "id": "state-of-the-church",
+      "title": "State of the Church",
+      "blurb": "Where we are, and where we're going.",
+      "started": "2025-09-01",
+      "playlists": { "messages": null, "full": "PLZe6ANQOBloty4ZechWp6w7on6TrVUEcp" }
+    },
+    {
+      "id": "one-year-celebration",
+      "title": "ONE Year Celebration",
+      "blurb": "Marking a year of GateCity Buckhead.",
+      "started": "2025-11-02",
+      "playlists": { "messages": null, "full": "PLZe6ANQOBlouOBqNbnwEaCa8Wx1k8IuTX" }
+    },
+    {
+      "id": "pentecost-atl-2026",
+      "title": "Pentecost ATL 2026",
+      "blurb": "The citywide gathering.",
+      "started": "2026-05-24",
+      "playlists": { "messages": null, "full": "PLZe6ANQOBloueW11wQacQ-KdjTXVgZzb2" }
+    }
+  ]
+}

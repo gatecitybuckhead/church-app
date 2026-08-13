@@ -1,0 +1,20 @@
+{
+  "_comment": "Sermons that aren't in a YouTube playlist yet. A new series usually lands here for its first week or two, until someone builds its playlist on the channel. Entries here override anything pulled from a feed, and fetch_youtube.py always merges them in. Minimum fields: youtubeId, title, seriesId, date, kind ('message' or 'service').",
+  "sermons": [
+    {
+      "youtubeId": "2qrkjUkWbi4",
+      "title": "Family Matters",
+      "seriesId": "family-matters",
+      "date": "2026-08-09",
+      "kind": "service"
+    },
+    {
+      "youtubeId": "0hQPLBN43Bk",
+      "notes": "files/james-session-1-handout.pdf"
+    },
+    {
+      "youtubeId": "jruysE2suqc",
+      "notes": "files/james-session-2-handout.pdf"
+    }
+  ]
+}

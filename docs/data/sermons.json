@@ -1,0 +1,1133 @@
+{
+  "generated": "2026-08-13T15:03:51Z",
+  "source": "YouTube playlist RSS via tools/fetch_youtube.py",
+  "sermons": [
+    {
+      "youtubeId": "2qrkjUkWbi4",
+      "title": "Family Matters",
+      "seriesId": "family-matters",
+      "date": "2026-08-09",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/2qrkjUkWbi4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2qrkjUkWbi4"
+    },
+    {
+      "youtubeId": "jruysE2suqc",
+      "title": "Journey Through James \u2014 Part 2: Desire, Deception, Divine Provision & Devotion",
+      "seriesId": "journey-through-james",
+      "date": "2026-08-01",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/jruysE2suqc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jruysE2suqc",
+      "notes": "files/james-session-2-handout.pdf"
+    },
+    {
+      "youtubeId": "0hQPLBN43Bk",
+      "title": "Journey Through James \u2014 Part 1: The Perseverance of Wisdom and Love",
+      "seriesId": "journey-through-james",
+      "date": "2026-07-29",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/0hQPLBN43Bk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0hQPLBN43Bk",
+      "notes": "files/james-session-1-handout.pdf"
+    },
+    {
+      "youtubeId": "8R4Hi5tSAbA",
+      "title": "Journey Through James",
+      "seriesId": "journey-through-james",
+      "date": "2026-07-26",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/8R4Hi5tSAbA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8R4Hi5tSAbA"
+    },
+    {
+      "youtubeId": "UOH4QkBAsfc",
+      "title": "Journey Through James Pt 1",
+      "seriesId": "journey-through-james",
+      "date": "2026-07-19",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/UOH4QkBAsfc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UOH4QkBAsfc"
+    },
+    {
+      "youtubeId": "Lt4aZP4On4E",
+      "title": "Detox \u2014 Part 4: Remain",
+      "seriesId": "detox",
+      "date": "2026-07-18",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/Lt4aZP4On4E/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Lt4aZP4On4E"
+    },
+    {
+      "youtubeId": "pzdKbUbHMyQ",
+      "title": "Detox \u2014 Part 3: Replace",
+      "seriesId": "detox",
+      "date": "2026-07-14",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/pzdKbUbHMyQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pzdKbUbHMyQ"
+    },
+    {
+      "youtubeId": "KlYD7WFWsvQ",
+      "title": "Detox Part 4",
+      "seriesId": "detox",
+      "date": "2026-07-12",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/KlYD7WFWsvQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KlYD7WFWsvQ"
+    },
+    {
+      "youtubeId": "2TavOcdxnus",
+      "title": "Detox Pt 3",
+      "seriesId": "detox",
+      "date": "2026-07-05",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/2TavOcdxnus/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2TavOcdxnus"
+    },
+    {
+      "youtubeId": "sg0l_hL9ijM",
+      "title": "Detox \u2014 Part 2: Remove",
+      "seriesId": "detox",
+      "date": "2026-06-29",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/sg0l_hL9ijM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sg0l_hL9ijM"
+    },
+    {
+      "youtubeId": "YMyug6Sxlfc",
+      "title": "Detox \u2014 Part 1: Reflect",
+      "seriesId": "detox",
+      "date": "2026-06-29",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/YMyug6Sxlfc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=YMyug6Sxlfc"
+    },
+    {
+      "youtubeId": "Ompzg6uytHw",
+      "title": "Detox Pt 2",
+      "seriesId": "detox",
+      "date": "2026-06-29",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/Ompzg6uytHw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ompzg6uytHw"
+    },
+    {
+      "youtubeId": "GaYtHweWWf4",
+      "title": "Manifest \u2014 Part 8: Testimony Sunday",
+      "seriesId": "manifest",
+      "date": "2026-06-28",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/GaYtHweWWf4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GaYtHweWWf4"
+    },
+    {
+      "youtubeId": "M8nWZ2uT0nU",
+      "title": "Detox Pt 1",
+      "seriesId": "detox",
+      "date": "2026-06-22",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/M8nWZ2uT0nU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=M8nWZ2uT0nU"
+    },
+    {
+      "youtubeId": "xxkWZkVE4zY",
+      "title": "Manifest \u2014 Part 7: Grant us Boldness",
+      "seriesId": "manifest",
+      "date": "2026-06-14",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/xxkWZkVE4zY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xxkWZkVE4zY"
+    },
+    {
+      "youtubeId": "L6wPzbtJsgA",
+      "title": "Manifest Part 7",
+      "seriesId": "manifest",
+      "date": "2026-06-07",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/L6wPzbtJsgA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=L6wPzbtJsgA"
+    },
+    {
+      "youtubeId": "hpSFmGO864M",
+      "title": "Manifest \u2014 Part 6: Of One Accord\u2014Discovering the Power of Unity",
+      "seriesId": "manifest",
+      "date": "2026-06-01",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/hpSFmGO864M/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hpSFmGO864M"
+    },
+    {
+      "youtubeId": "DiWwDWSSxgA",
+      "title": "Jesus Be The Name",
+      "seriesId": "pentecost-atl-2026",
+      "date": "2026-06-01",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/DiWwDWSSxgA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DiWwDWSSxgA"
+    },
+    {
+      "youtubeId": "tGxY2zFIGnc",
+      "title": "Jesus The Only",
+      "seriesId": "pentecost-atl-2026",
+      "date": "2026-06-01",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/tGxY2zFIGnc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=tGxY2zFIGnc"
+    },
+    {
+      "youtubeId": "zZPhpW8UGeo",
+      "title": "What a God/Holy Forever/Here As In Heaven",
+      "seriesId": "pentecost-atl-2026",
+      "date": "2026-06-01",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/zZPhpW8UGeo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zZPhpW8UGeo"
+    },
+    {
+      "youtubeId": "XO5xLCWZlmA",
+      "title": "WASHED",
+      "seriesId": "pentecost-atl-2026",
+      "date": "2026-06-01",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/XO5xLCWZlmA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XO5xLCWZlmA"
+    },
+    {
+      "youtubeId": "DV9OQY9U8OY",
+      "title": "PENATACOST ATL \u2014 A Moment of Comissioning \u2014 Hazen Stevens",
+      "seriesId": "pentecost-atl-2026",
+      "date": "2026-06-01",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/DV9OQY9U8OY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DV9OQY9U8OY"
+    },
+    {
+      "youtubeId": "j99sQC8KjvE",
+      "title": "Pentecost ATL Livestream",
+      "seriesId": "pentecost-atl-2026",
+      "date": "2026-05-25",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/j99sQC8KjvE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=j99sQC8KjvE"
+    },
+    {
+      "youtubeId": "STmZs0YS89I",
+      "title": "Manifest \u2014 Part 4: Spiritual Mothers: Praying Beyond the Story you Can\u2019t See",
+      "seriesId": "manifest",
+      "date": "2026-05-24",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/STmZs0YS89I/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=STmZs0YS89I"
+    },
+    {
+      "youtubeId": "WUBFJk2NTVQ",
+      "title": "Manifest \u2014 Part 5: The Towel Before the Title",
+      "seriesId": "manifest",
+      "date": "2026-05-18",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/WUBFJk2NTVQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WUBFJk2NTVQ"
+    },
+    {
+      "youtubeId": "3xlFlvHetDM",
+      "title": "Manifest Part 5",
+      "seriesId": "manifest",
+      "date": "2026-05-17",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/3xlFlvHetDM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3xlFlvHetDM"
+    },
+    {
+      "youtubeId": "sebxAZ9VfbU",
+      "title": "Manifest Part 4",
+      "seriesId": "manifest",
+      "date": "2026-05-10",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/sebxAZ9VfbU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sebxAZ9VfbU"
+    },
+    {
+      "youtubeId": "J08lDdmZsoo",
+      "title": "Manifest \u2014 Part 3: The Gifts of the Spirit",
+      "seriesId": "manifest",
+      "date": "2026-05-09",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/J08lDdmZsoo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=J08lDdmZsoo"
+    },
+    {
+      "youtubeId": "V3zBsXtoJjo",
+      "title": "Manifest Part 3",
+      "seriesId": "manifest",
+      "date": "2026-05-03",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/V3zBsXtoJjo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=V3zBsXtoJjo"
+    },
+    {
+      "youtubeId": "7k3Uf_gA_fM",
+      "title": "Manifest \u2014 Part 2: The Fruit of the Holy Spirit is Love",
+      "seriesId": "manifest",
+      "date": "2026-04-27",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/7k3Uf_gA_fM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7k3Uf_gA_fM"
+    },
+    {
+      "youtubeId": "kgwupngJMCo",
+      "title": "Manifest Part 2",
+      "seriesId": "manifest",
+      "date": "2026-04-26",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/kgwupngJMCo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kgwupngJMCo"
+    },
+    {
+      "youtubeId": "ihSFSdNwEIA",
+      "title": "Manifest \u2014 Part 1: The Holy Spirit Is a Person, Not a Power You Manifest",
+      "seriesId": "manifest",
+      "date": "2026-04-20",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/ihSFSdNwEIA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ihSFSdNwEIA"
+    },
+    {
+      "youtubeId": "XCGLeI_L5jU",
+      "title": "Manifest Part 1",
+      "seriesId": "manifest",
+      "date": "2026-04-19",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/XCGLeI_L5jU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XCGLeI_L5jU"
+    },
+    {
+      "youtubeId": "z8tK8ZDIkkc",
+      "title": "Encounter Sunday",
+      "seriesId": "encounter-sundays",
+      "date": "2026-04-13",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/z8tK8ZDIkkc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=z8tK8ZDIkkc"
+    },
+    {
+      "youtubeId": "DGqOhtnhPIs",
+      "title": "Encounter Sunday \u2014 Prophetic Encounter Time",
+      "seriesId": "encounter-sundays",
+      "date": "2026-04-13",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/DGqOhtnhPIs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DGqOhtnhPIs"
+    },
+    {
+      "youtubeId": "ec2K5W-4KOY",
+      "title": "What a God/Holy Forever",
+      "seriesId": "encounter-sundays",
+      "date": "2026-04-13",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/ec2K5W-4KOY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ec2K5W-4KOY"
+    },
+    {
+      "youtubeId": "weTtgiTxsNU",
+      "title": "Ministry Time \u2014 Prayer for Healing",
+      "seriesId": "encounter-sundays",
+      "date": "2026-04-12",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/weTtgiTxsNU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=weTtgiTxsNU"
+    },
+    {
+      "youtubeId": "I3c9sUf3IRA",
+      "title": "Holy Spirit/Who Else",
+      "seriesId": "encounter-sundays",
+      "date": "2026-04-12",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/I3c9sUf3IRA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=I3c9sUf3IRA"
+    },
+    {
+      "youtubeId": "UmGZygE37kk",
+      "title": "Thank God I\u2019m Free",
+      "seriesId": "encounter-sundays",
+      "date": "2026-04-12",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/UmGZygE37kk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UmGZygE37kk"
+    },
+    {
+      "youtubeId": "3VgWFgy99dg",
+      "title": "Resurrection Sunday",
+      "seriesId": "covered",
+      "date": "2026-04-06",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/3VgWFgy99dg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3VgWFgy99dg"
+    },
+    {
+      "youtubeId": "9Iab3QBI5FY",
+      "title": "Marvelous",
+      "seriesId": "covered",
+      "date": "2026-04-06",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/9Iab3QBI5FY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=9Iab3QBI5FY"
+    },
+    {
+      "youtubeId": "cYP1Vj8bAWo",
+      "title": "Jesus Be The Name/What a Beautiful Name",
+      "seriesId": "covered",
+      "date": "2026-04-06",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/cYP1Vj8bAWo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cYP1Vj8bAWo"
+    },
+    {
+      "youtubeId": "JfgcWxCRqP8",
+      "title": "Ministry Time \u2014 He Will Lift Our Burdens",
+      "seriesId": "covered",
+      "date": "2026-04-06",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/JfgcWxCRqP8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JfgcWxCRqP8"
+    },
+    {
+      "youtubeId": "3mZs3v9yGog",
+      "title": "WASHED",
+      "seriesId": "covered",
+      "date": "2026-04-06",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/3mZs3v9yGog/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3mZs3v9yGog"
+    },
+    {
+      "youtubeId": "z4OThJduW4E",
+      "title": "Covered \u2014 Resurrection Sunday 2026: The Blood That Still Speaks by Hazen Stevens",
+      "seriesId": "covered",
+      "date": "2026-04-06",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/z4OThJduW4E/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=z4OThJduW4E"
+    },
+    {
+      "youtubeId": "S0x5gQIf73w",
+      "title": "Wisdom for Wealth \u2014 Part 3: The Three Rules that Produce It by Hazen Stevens",
+      "seriesId": "wisdom-for-wealth",
+      "date": "2026-03-30",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/S0x5gQIf73w/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=S0x5gQIf73w"
+    },
+    {
+      "youtubeId": "wpeZ4Sm3FvQ",
+      "title": "Wisdom for Wealth Pt 3",
+      "seriesId": "wisdom-for-wealth",
+      "date": "2026-03-29",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/wpeZ4Sm3FvQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wpeZ4Sm3FvQ"
+    },
+    {
+      "youtubeId": "NHj4Z_wZKkU",
+      "title": "Wisdom for Wealth \u2014 Part 2: The God Factor by Pastor Dennis Rouse",
+      "seriesId": "wisdom-for-wealth",
+      "date": "2026-03-24",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/NHj4Z_wZKkU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=NHj4Z_wZKkU"
+    },
+    {
+      "youtubeId": "x3rifMwFhO4",
+      "title": "Wisdom for Wealth Pt 2",
+      "seriesId": "wisdom-for-wealth",
+      "date": "2026-03-23",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/x3rifMwFhO4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=x3rifMwFhO4"
+    },
+    {
+      "youtubeId": "MyXJrHgIX3A",
+      "title": "Wisdom for Wealth \u2014 Part 1: How to Master Money Before it Masters You",
+      "seriesId": "wisdom-for-wealth",
+      "date": "2026-03-16",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/MyXJrHgIX3A/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=MyXJrHgIX3A"
+    },
+    {
+      "youtubeId": "amtttJznom0",
+      "title": "Wisdom for Wealth Pt 1",
+      "seriesId": "wisdom-for-wealth",
+      "date": "2026-03-16",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/amtttJznom0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=amtttJznom0"
+    },
+    {
+      "youtubeId": "8_OZDW9I9E0",
+      "title": "Culture of Hunger \u2014 Part 3: Hunger and Thirst for Righteousness",
+      "seriesId": "culture-of-hunger",
+      "date": "2026-03-13",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/8_OZDW9I9E0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8_OZDW9I9E0"
+    },
+    {
+      "youtubeId": "pUSh3OxO4Oc",
+      "title": "Culture of Hunger Pt 3",
+      "seriesId": "culture-of-hunger",
+      "date": "2026-03-09",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/pUSh3OxO4Oc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pUSh3OxO4Oc"
+    },
+    {
+      "youtubeId": "GEE-irqGXPM",
+      "title": "Culture of Hunger Pt 2",
+      "seriesId": "culture-of-hunger",
+      "date": "2026-03-02",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/GEE-irqGXPM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GEE-irqGXPM"
+    },
+    {
+      "youtubeId": "0JrJKaiTV3U",
+      "title": "Culture of Hunger \u2014 Part 2: Hunger for the Word",
+      "seriesId": "culture-of-hunger",
+      "date": "2026-03-01",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/0JrJKaiTV3U/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0JrJKaiTV3U"
+    },
+    {
+      "youtubeId": "UOxMZ2kUlaQ",
+      "title": "Culture of Hunger \u2014 Part 1: A Culture of Spiritual Hunger by Billy Humphrey",
+      "seriesId": "culture-of-hunger",
+      "date": "2026-02-25",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/UOxMZ2kUlaQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UOxMZ2kUlaQ"
+    },
+    {
+      "youtubeId": "7kMA7z7MzJQ",
+      "title": "Culture of Hunger Pt 1 \u2014 Special Guest Billy Humphrey",
+      "seriesId": "culture-of-hunger",
+      "date": "2026-02-24",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/7kMA7z7MzJQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7kMA7z7MzJQ"
+    },
+    {
+      "youtubeId": "z4Pe0OFBun4",
+      "title": "Come to Worship: Praise Medley (GateCity Buckhead Worship)",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-17",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/z4Pe0OFBun4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=z4Pe0OFBun4"
+    },
+    {
+      "youtubeId": "tQxcwSYLht4",
+      "title": "Elohim/No One Like the Lord (GateCity Buckhead Worship)",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-16",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/tQxcwSYLht4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=tQxcwSYLht4"
+    },
+    {
+      "youtubeId": "2RHrL4SZ4gg",
+      "title": "Ministry Time \u2014 Prayer for Our City",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-16",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/2RHrL4SZ4gg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2RHrL4SZ4gg"
+    },
+    {
+      "youtubeId": "oT4DzC0PL2A",
+      "title": "One Year Anniversary \u2014 Prophetic Prayer from City Leaders",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-16",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/oT4DzC0PL2A/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oT4DzC0PL2A"
+    },
+    {
+      "youtubeId": "mMxz7F9eIu0",
+      "title": "One Year Anniversary \u2014 Ten Qualities of a Pioneer by Billy Humphrey",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-16",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/mMxz7F9eIu0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mMxz7F9eIu0"
+    },
+    {
+      "youtubeId": "4X2xcThqHuI",
+      "title": "One Year Anniversary \u2014 Strike The Ground",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-16",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/4X2xcThqHuI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4X2xcThqHuI"
+    },
+    {
+      "youtubeId": "9v1UR7U0m6Q",
+      "title": "One Year Anniversary",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-16",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/9v1UR7U0m6Q/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=9v1UR7U0m6Q"
+    },
+    {
+      "youtubeId": "qlU1_tcBlsw",
+      "title": "One Year Anniversary",
+      "seriesId": "one-year-celebration",
+      "date": "2026-02-15",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/qlU1_tcBlsw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qlU1_tcBlsw"
+    },
+    {
+      "youtubeId": "WoOCMe7Efj0",
+      "title": "Exposition Psalm 24: Open to the King of Glory",
+      "seriesId": "just-the-text",
+      "date": "2026-02-05",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/WoOCMe7Efj0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WoOCMe7Efj0"
+    },
+    {
+      "youtubeId": "HIVUkFtfTUc",
+      "title": "Start Strong \u2014 Part 4: Finishing Strong",
+      "seriesId": "start-strong",
+      "date": "2026-02-01",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/HIVUkFtfTUc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HIVUkFtfTUc"
+    },
+    {
+      "youtubeId": "zxoB25vM_L0",
+      "title": "Start Strong \u2014 Part 3: Strengthened By Joy",
+      "seriesId": "start-strong",
+      "date": "2026-02-01",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/zxoB25vM_L0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zxoB25vM_L0"
+    },
+    {
+      "youtubeId": "ZyzyMLhE2Jc",
+      "title": "Exposition of Hebrews 12:1-3: Run with Endurance",
+      "seriesId": "just-the-text",
+      "date": "2026-01-30",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/ZyzyMLhE2Jc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZyzyMLhE2Jc"
+    },
+    {
+      "youtubeId": "fj8SiuBte2Q",
+      "title": "Exposition of Matthew 13:44-46: Treasure in a Field & The Pearl of Great Price",
+      "seriesId": "just-the-text",
+      "date": "2026-01-26",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/fj8SiuBte2Q/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fj8SiuBte2Q"
+    },
+    {
+      "youtubeId": "GbsENlb7TlM",
+      "title": "From Crisis to Faith: The Power of the Holy Spirit #shorts",
+      "seriesId": "intersection-sunday",
+      "date": "2026-01-24",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/GbsENlb7TlM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GbsENlb7TlM"
+    },
+    {
+      "youtubeId": "-yJBasYWdgQ",
+      "title": "Intersection Sunday: A Conversation on Faith & Business w/ Jim Blanchard",
+      "seriesId": "start-strong",
+      "date": "2026-01-19",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/-yJBasYWdgQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-yJBasYWdgQ"
+    },
+    {
+      "youtubeId": "AlSJwNMSZT0",
+      "title": "Intersection Sunday - Jimmy Blanchard",
+      "seriesId": "start-strong",
+      "date": "2026-01-18",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/AlSJwNMSZT0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=AlSJwNMSZT0"
+    },
+    {
+      "youtubeId": "KyJdSdCH6gE",
+      "title": "Start Strong \u2014 Part 2: Sell All for the Ultimate Riches",
+      "seriesId": "start-strong",
+      "date": "2026-01-13",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/KyJdSdCH6gE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KyJdSdCH6gE"
+    },
+    {
+      "youtubeId": "Swp-LSSHsEA",
+      "title": "Stay Strong",
+      "seriesId": "start-strong",
+      "date": "2026-01-11",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/Swp-LSSHsEA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Swp-LSSHsEA"
+    },
+    {
+      "youtubeId": "mBITzvOd2Wk",
+      "title": "2026: a Fair-Weather Fan of Jesus? #shorts",
+      "seriesId": "start-strong",
+      "date": "2026-01-09",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/mBITzvOd2Wk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mBITzvOd2Wk"
+    },
+    {
+      "youtubeId": "r2XaXv8tROI",
+      "title": "Receive this Blessing for Wholeheartedness! #shorts",
+      "seriesId": "start-strong",
+      "date": "2026-01-07",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/r2XaXv8tROI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=r2XaXv8tROI"
+    },
+    {
+      "youtubeId": "KHl70cNQQeo",
+      "title": "Leave 2025's 'NO' Behind! God has a FRESH START for you! #shorts",
+      "seriesId": "start-strong",
+      "date": "2026-01-06",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/KHl70cNQQeo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KHl70cNQQeo"
+    },
+    {
+      "youtubeId": "PsH7CwBJhIc",
+      "title": "Start Strong \u2014 Part 1: Count the Cost",
+      "seriesId": "start-strong",
+      "date": "2026-01-06",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/PsH7CwBJhIc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=PsH7CwBJhIc"
+    },
+    {
+      "youtubeId": "pbvh1J4Dkjk",
+      "title": "Start Strong",
+      "seriesId": "start-strong",
+      "date": "2026-01-04",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/pbvh1J4Dkjk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pbvh1J4Dkjk"
+    },
+    {
+      "youtubeId": "w51OLZvp-hc",
+      "title": "Messiah \u2014 Part 3: God in the Flesh Will Come Again",
+      "seriesId": "messiah",
+      "date": "2025-12-23",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/w51OLZvp-hc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=w51OLZvp-hc"
+    },
+    {
+      "youtubeId": "RZkeYEj9GNk",
+      "title": "Special Christmas Service \u2014 Messiah Pt 3",
+      "seriesId": "messiah",
+      "date": "2025-12-21",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/RZkeYEj9GNk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=RZkeYEj9GNk"
+    },
+    {
+      "youtubeId": "kR5FXznB324",
+      "title": "Messiah \u2014 Part 2: A Thousand Miles to Kneel",
+      "seriesId": "messiah",
+      "date": "2025-12-16",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/kR5FXznB324/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kR5FXznB324"
+    },
+    {
+      "youtubeId": "_Wc_0sAxd2g",
+      "title": "Messiah",
+      "seriesId": "messiah",
+      "date": "2025-12-14",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/_Wc_0sAxd2g/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_Wc_0sAxd2g"
+    },
+    {
+      "youtubeId": "plm2LYdikdo",
+      "title": "Messiah \u2014 Part 1: Christ is Coming",
+      "seriesId": "messiah",
+      "date": "2025-12-08",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/plm2LYdikdo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=plm2LYdikdo"
+    },
+    {
+      "youtubeId": "gtLscNv2kNg",
+      "title": "Messiah - Pt 1: Christ is Coming",
+      "seriesId": "messiah",
+      "date": "2025-12-07",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/gtLscNv2kNg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gtLscNv2kNg"
+    },
+    {
+      "youtubeId": "NO5dGsYHmXw",
+      "title": "Blessed to be a Blessing \u2014 Part 4: Possessing the Gates\u2014God\u2019s Heart for the Nations",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-24",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/NO5dGsYHmXw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=NO5dGsYHmXw"
+    },
+    {
+      "youtubeId": "aWj582bokQU",
+      "title": "Blessed to be a Blessing",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-23",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/aWj582bokQU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=aWj582bokQU"
+    },
+    {
+      "youtubeId": "reGNwcnYzsw",
+      "title": "Blessed to be a Blessing \u2014 Part 3: A Life of Generosity\u2014Angel Colon",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-17",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/reGNwcnYzsw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=reGNwcnYzsw"
+    },
+    {
+      "youtubeId": "vPf3bnWm-Wg",
+      "title": "Blessed to be a Blessing Part 3: A Life of Generosity",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-17",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/vPf3bnWm-Wg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vPf3bnWm-Wg"
+    },
+    {
+      "youtubeId": "kQGxrmpZJXA",
+      "title": "Blessed to be a Blessing \u2014 Part 2: Salt and Light",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-10",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/kQGxrmpZJXA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kQGxrmpZJXA"
+    },
+    {
+      "youtubeId": "u8ZQrSaHHQY",
+      "title": "Blessed to be a Blessing Part 2: Salt and Light",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-10",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/u8ZQrSaHHQY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=u8ZQrSaHHQY"
+    },
+    {
+      "youtubeId": "7D1i0n9PrcU",
+      "title": "Blessed to be a Blessing \u2014 Part 1: The Pilgrim Faith of Abraham",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-03",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/7D1i0n9PrcU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7D1i0n9PrcU"
+    },
+    {
+      "youtubeId": "FfRgJl39ZQw",
+      "title": "Blessed to be a Blessing Pt 1: The Pilgrim Faith of Abraham",
+      "seriesId": "blessed-to-be-a-blessing",
+      "date": "2025-11-03",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/FfRgJl39ZQw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FfRgJl39ZQw"
+    },
+    {
+      "youtubeId": "ILk3mmt8V_M",
+      "title": "Legacy \u2014 Part 10: Keystone Changes",
+      "seriesId": "legacy",
+      "date": "2025-10-21",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/ILk3mmt8V_M/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ILk3mmt8V_M"
+    },
+    {
+      "youtubeId": "Jl2NN4Y9f8E",
+      "title": "Living for Legacy Pt 10 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-10-19",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/Jl2NN4Y9f8E/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Jl2NN4Y9f8E"
+    },
+    {
+      "youtubeId": "xPLuAC_EH5I",
+      "title": "Legacy \u2014 Part 9: Five Characteristics of Your Eternal Assignment by Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-10-13",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/xPLuAC_EH5I/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xPLuAC_EH5I"
+    },
+    {
+      "youtubeId": "Om9Y4mtYPTs",
+      "title": "Living for Legacy Pt 9 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-10-12",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/Om9Y4mtYPTs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Om9Y4mtYPTs"
+    },
+    {
+      "youtubeId": "1GSsslFxfH8",
+      "title": "Legacy \u2014 Part 8: Five Things You\u2019ll Be Rewarded for in Heaven by Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-10-06",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/1GSsslFxfH8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1GSsslFxfH8"
+    },
+    {
+      "youtubeId": "4NQVOj66slw",
+      "title": "Living for Legacy Pt 8 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-10-05",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/4NQVOj66slw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4NQVOj66slw"
+    },
+    {
+      "youtubeId": "j5UeH-dfX_o",
+      "title": "Legacy \u2014 Part 7: The Eternal Value of Souls by Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-09-29",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/j5UeH-dfX_o/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=j5UeH-dfX_o"
+    },
+    {
+      "youtubeId": "f7fZdn2SnMw",
+      "title": "Living for Legacy Pt 7 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-09-28",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/f7fZdn2SnMw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=f7fZdn2SnMw"
+    },
+    {
+      "youtubeId": "FAodvdaItTY",
+      "title": "Legacy \u2014 Part 6: Living for Eternity by Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-09-22",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/FAodvdaItTY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FAodvdaItTY"
+    },
+    {
+      "youtubeId": "bfpLN3YEB14",
+      "title": "Living for Legacy Pt 6 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-09-21",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/bfpLN3YEB14/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bfpLN3YEB14"
+    },
+    {
+      "youtubeId": "SiBCfsrCGUU",
+      "title": "Legacy \u2014 Part 5: Walking in Calling Together by Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-09-15",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/SiBCfsrCGUU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=SiBCfsrCGUU"
+    },
+    {
+      "youtubeId": "7vMl2JBpl8o",
+      "title": "Living for Legacy Pt 5 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-09-14",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/7vMl2JBpl8o/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7vMl2JBpl8o"
+    },
+    {
+      "youtubeId": "GZEzAME2VQM",
+      "title": "Legacy \u2014 Part 4: Remember by Pastor Kirstie Bronner Foley",
+      "seriesId": "legacy",
+      "date": "2025-09-08",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/GZEzAME2VQM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GZEzAME2VQM"
+    },
+    {
+      "youtubeId": "S298c-fb_fk",
+      "title": "Living for Legacy - Kirstie Bronner Foley",
+      "seriesId": "legacy",
+      "date": "2025-09-07",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/S298c-fb_fk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=S298c-fb_fk"
+    },
+    {
+      "youtubeId": "oDRRUxQurIc",
+      "title": "Legacy \u2014 Part 3: Stewarding Resources",
+      "seriesId": "legacy",
+      "date": "2025-09-01",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/oDRRUxQurIc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oDRRUxQurIc"
+    },
+    {
+      "youtubeId": "kY4W1poPGds",
+      "title": "Living for Legacy Pt 3 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-08-31",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/kY4W1poPGds/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kY4W1poPGds"
+    },
+    {
+      "youtubeId": "xLqBQdbyOlw",
+      "title": "Legacy \u2014 Part 2: He has Set Eternity in the Human Heart",
+      "seriesId": "legacy",
+      "date": "2025-08-25",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/xLqBQdbyOlw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xLqBQdbyOlw"
+    },
+    {
+      "youtubeId": "0MKoiPB4tqU",
+      "title": "Living for Legacy Pt 2 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-08-24",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/0MKoiPB4tqU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0MKoiPB4tqU"
+    },
+    {
+      "youtubeId": "0DuZdicNJAo",
+      "title": "Living for Legacy Pt 1 - Hazen Stevens",
+      "seriesId": "legacy",
+      "date": "2025-08-17",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/0DuZdicNJAo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0DuZdicNJAo"
+    },
+    {
+      "youtubeId": "vpQbEkJooIE",
+      "title": "John 17 Bible Intensive",
+      "seriesId": "bible-intensives",
+      "date": "2025-08-07",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/vpQbEkJooIE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vpQbEkJooIE"
+    },
+    {
+      "youtubeId": "7AaGtVWS69I",
+      "title": "State of the Church",
+      "seriesId": "state-of-the-church",
+      "date": "2025-07-27",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/7AaGtVWS69I/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7AaGtVWS69I"
+    },
+    {
+      "youtubeId": "DEPhml7JKoo",
+      "title": "Conversations \u2014 Part 9: Sowing Is An Act of Faith by Hazen Stevens",
+      "seriesId": "conversations",
+      "date": "2025-07-14",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/DEPhml7JKoo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DEPhml7JKoo"
+    },
+    {
+      "youtubeId": "pSsq5UR5dvU",
+      "title": "Conversations \u2014 Part 8: Conversations with Non-Christians by Hazen Stevens",
+      "seriesId": "conversations",
+      "date": "2025-07-07",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/pSsq5UR5dvU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pSsq5UR5dvU"
+    },
+    {
+      "youtubeId": "p75LIUiN10Y",
+      "title": "Conversations \u2014 Part 7: Words Create Worlds by Pastor Hannah Stevens",
+      "seriesId": "conversations",
+      "date": "2025-06-30",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/p75LIUiN10Y/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=p75LIUiN10Y"
+    },
+    {
+      "youtubeId": "qZTlI8a7bzA",
+      "title": "Conversations \u2014 Part 6: Pastor Dennis Rouse",
+      "seriesId": "conversations",
+      "date": "2025-06-23",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/qZTlI8a7bzA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qZTlI8a7bzA"
+    },
+    {
+      "youtubeId": "sTn3zc32hiY",
+      "title": "Conversations \u2014 Part 5: The Truth about You \u2014 Pastor Dustin Pennington",
+      "seriesId": "conversations",
+      "date": "2025-06-16",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/sTn3zc32hiY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sTn3zc32hiY"
+    },
+    {
+      "youtubeId": "E0MDn5wb3HE",
+      "title": "Conversations \u2014 Part 4: The Power of United Prayer",
+      "seriesId": "conversations",
+      "date": "2025-06-02",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/E0MDn5wb3HE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=E0MDn5wb3HE"
+    },
+    {
+      "youtubeId": "Dq6MF0xEkwU",
+      "title": "Conversations \u2014 Part 3: Private Prayer",
+      "seriesId": "conversations",
+      "date": "2025-05-25",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/Dq6MF0xEkwU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Dq6MF0xEkwU"
+    },
+    {
+      "youtubeId": "zwjtTMLuqQQ",
+      "title": "Conversations \u2014 Part 2: Starting the Conversation",
+      "seriesId": "conversations",
+      "date": "2025-05-19",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/zwjtTMLuqQQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zwjtTMLuqQQ"
+    },
+    {
+      "youtubeId": "Gy4XsBoWSjE",
+      "title": "Conversations \u2014 Part 1: The Trinity Talks",
+      "seriesId": "conversations",
+      "date": "2025-05-12",
+      "kind": "message",
+      "thumb": "https://i.ytimg.com/vi/Gy4XsBoWSjE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Gy4XsBoWSjE"
+    },
+    {
+      "youtubeId": "G1FmqySPXK4",
+      "title": "State of the Church - Hazen Stevens",
+      "seriesId": "state-of-the-church",
+      "date": "2025-05-04",
+      "kind": "service",
+      "thumb": "https://i.ytimg.com/vi/G1FmqySPXK4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=G1FmqySPXK4"
+    }
+  ]
+}
