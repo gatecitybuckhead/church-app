@@ -39,15 +39,30 @@ presence, this same codebase can be wrapped later; nothing here is wasted.
 **Never host the video.** It streams from YouTube; the app is a good menu over
 it. Hosting sermon video would cost real money and solve nothing.
 
-## The two scripts
+## The three scripts
 ```bash
 python3 tools/fetch_youtube.py    # pull sermons from the channel's playlists
 python3 tools/build.py            # validate everything + stamp the worker
+python3 tools/check_new.py        # sermons on the channel the app is missing
 ```
 `fetch_youtube.py` uses YouTube's public RSS feeds — no API key, no quota. It
 **preserves anything typed by hand** (speaker, scripture, notes): the feed only
 ever owns title/date/thumbnail/kind/series. Run `build.py` before publishing;
 it exits non-zero on a broken link or a sermon pointing at a missing series.
+
+`check_new.py` exists because `fetch_youtube.py` only reads playlists already
+named in `series.json` — so a **brand-new series is invisible** until someone
+adds it, and the app looks perfectly healthy while sitting a fortnight behind.
+It compares the channel feed against `sermons.json`, ignores worship songs /
+Ministry Time / podcast uploads, and exits 1 when a real sermon is missing.
+
+## It keeps itself current
+`church-app-refresh-tuesday` (CLI scheduler, Tuesdays ~9:24am) runs all three
+scripts, publishes if anything changed, and texts Andrew only when there is
+something to say. **Tuesday, not Monday** — the team often doesn't finish
+uploading Sunday's video until Monday. The task must never invoke
+`Publish to GitHub.command`, which waits on a keypress and would hang the run;
+it pushes directly instead.
 
 ## Branding
 The home-screen icon, the header mark and the link-preview card are all the
