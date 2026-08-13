@@ -16,6 +16,20 @@
       "cover": "art/book-seven-seeds.jpg"
     },
     {
+      "title": "Strong",
+      "category": "Books",
+      "note": "Hazen Stevens · How to Start, Stay, and Finish Strong · 91 pages · PDF",
+      "url": "files/strong.pdf",
+      "cover": "art/book-strong.jpg"
+    },
+    {
+      "title": "Transformed",
+      "category": "Books",
+      "note": "Hazen Stevens · How the Gospel Changes Everything · 103 pages · PDF",
+      "url": "files/transformed.pdf",
+      "cover": "art/book-transformed.jpg"
+    },
+    {
       "title": "James — Session 1 Handout",
       "category": "Sermon Notes",
       "note": "The Perseverance of Wisdom and Love · PDF",

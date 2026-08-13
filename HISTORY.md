@@ -145,3 +145,23 @@ stale assets as a bug, download what the server is actually serving and compare
 - Series art for the other 16 series; speaker/scripture are still empty.
 - Audit what Church Center (`gatecity-buckhead.churchcenter.com`) already
   covers before duplicating giving/registrations here.
+
+## 8/13/2026 (evening) — Series art, bookshelf Library, 45 sermon-note PDFs
+- Series art found in Drive for 15 of 16 art-less series; the 11 clean title
+  graphics wired in (640×360 jpg in docs/art/). Still art-less: Just the Text
+  (nothing exists in Drive), Bible Intensives / Intersection Sunday / State of
+  the Church / ONE Year (only versions with dates or QR codes baked in —
+  contact sheet was sent to Andrew for a call on those).
+- Library: books + prayer guides now render as a cover bookshelf (`cover`
+  field in resources.json → `.shelf` grid). Conversations uses its real KDP
+  cover; Seven Seeds/Holy Week are page-1 renders (no designed cover exists).
+- 45 outline PDFs attached to sermons (Conversations 1–9, SOTC ×2, Legacy
+  1–10, B2BAB 1–4, Messiah 1–3, Start Strong 1–2, COH 1–3, W4W 1–3, Covered,
+  Manifest 1–7). Unmatched, left out: Seven Seeds ×4 + Transformed ×8 (those
+  series predate the app's series list), Conversations Pt 10 (no video in
+  app), Legacy msg "Part 2" (YouTube title looks mislabeled — says "He has
+  Set Eternity" but the 8/24 outline says that Sunday was "Stewarding Time";
+  its notes went on the service video only).
+- Gotcha for next time: Hannah's outline gdocs export unauthenticated via
+  /export?format=pdf — except 3March8Outline, which needed the Drive
+  connector. Google throttles ~1 export/sec; sleep between curls.

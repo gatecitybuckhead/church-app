@@ -109,9 +109,20 @@ weeks.
 - **Don't publish the At-a-Glance Calendar wholesale.** It's an internal staff
   doc — birthdays, finance meetings, staff retreats. `docs/data/events.json`
   carries only what the whole church is invited to.
-- **Books are not in the Library yet, on purpose.** *Conversations* and *Seven
-  Seeds* are sold on Amazon; posting the PDFs free would undercut that. They
-  need Andrew's call — free in-app, or a "Buy on Amazon" link.
+- **Books ARE in the Library, with covers, by Andrew's call (8/13/2026).**
+  *Conversations* and *Seven Seeds* PDFs are free in-app even though both sell
+  on Amazon. Library items with a `cover` field render as a clickable
+  bookshelf grid (`.shelf` in app.css); items without one stay as list rows.
+  Covers live at `docs/art/book-*.jpg` — Conversations uses the real KDP
+  cover; Seven Seeds and Holy Week are just page-1 renders because no
+  designed cover exists anywhere in Drive.
+- **Sermon-note PDFs live in `docs/files/notes/`, named `YYYY-MM-DD-<slug>.pdf`**
+  (45 of them as of 8/13/2026), attached to sermons via `notes` patches in
+  `manual_sermons.json`. The 2025 ones are hand-made PDFs from
+  `04_Sermons and Scripts/SERMON OUTLINES/`; the rest were exported from the
+  Google Docs in `SERMON OUTLINES - Hannah Team Use/` via
+  `https://docs.google.com/document/d/<ID>/export?format=pdf` — those docs are
+  link-readable, no auth needed (one wasn't; the Drive connector exported it).
 - "Prayer Leader Edition" guides are for leaders. The Library carries the
   general/plain editions only.
 - `.back[hidden]` needs an explicit `display: none` in CSS — `display: grid`
