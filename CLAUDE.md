@@ -122,6 +122,13 @@ weeks.
   from their gdocs in `01_Books and Written Resources/` — a Google Doc that
   uses tabs exports with a junk "Tab 1" first page; strip it with pypdf
   before shipping (installed via `pip3 install --user --break-system-packages pypdf`).
+- **Notes belong on the sermon, not in the Library** (Andrew, 8/13/2026).
+  The Library carries Books and Prayer Guides only; sermon notes reach people
+  through the Notes button on the message they go with. Don't add a
+  "Sermon Notes" category back to `resources.json` — a handful of loose
+  handouts there reads as the whole collection when 45 are attached to
+  sermons. The two James handouts still live in `docs/files/` because
+  `manual_sermons.json` points at them.
 - **Sermon-note PDFs live in `docs/files/notes/`, named `YYYY-MM-DD-<slug>.pdf`**
   (45 of them as of 8/13/2026), attached to sermons via `notes` patches in
   `manual_sermons.json`. The 2025 ones are hand-made PDFs from

@@ -190,3 +190,8 @@ stale assets as a bug, download what the server is actually serving and compare
   message cut exists within [-1, +14] days for that series (message uploads
   lag the Sunday). Watch/series pages were already right — they split the
   two cuts into tabs on purpose.
+- Library trimmed to Books + Prayer Guides. The "Sermon Notes" category only
+  ever held the 2 James handouts, which made the app look like it had 2 sets
+  of notes when 45 are attached to sermons. Notes now reach people only via
+  the Notes button on each message. The James PDFs stay in docs/files/ —
+  manual_sermons.json points at them.
