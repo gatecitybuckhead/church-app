@@ -12,12 +12,10 @@ same reason: it publishes to GitHub Pages on the **GateCity Buckhead** GitHub
 account, not Andrew's personal one.
 
 ## Why a PWA and not a real app
-Apple only allows iPhone installs through the App Store. TestFlight expires
-every 90 days, ad-hoc installs cap at 100 devices, and enterprise certificates
-are for employees only — churches have had certs revoked for exactly this.
-A home-screen PWA is the one route that installs straight from a link, and
-since iOS 16.4 it can even do push notifications. If GCB ever wants App Store
-presence, this same codebase can be wrapped later; nothing here is wasted.
+Apple only allows iPhone installs through the App Store (TestFlight
+expires, ad-hoc caps at 100, enterprise certs get churches banned). A
+home-screen PWA installs straight from a link and can push-notify since
+iOS 16.4. If GCB ever wants App Store presence, this codebase wraps later.
 
 ## Shape
 - **No build step for content.** The browser reads `docs/data/*.json` at
@@ -65,12 +63,10 @@ uploading Sunday's video until Monday. The task must never invoke
 it pushes directly instead.
 
 ## Branding
-The home-screen icon, the header mark and the link-preview card are all the
-church's own emerald gate mark, taken from the **YouTube channel avatar**
-(`@GateCityBuckhead`, 900×900 on white) — the Drive logo folder
-`07_Marketing and Communications/01_Logos` is empty, and the only file in Drive
-carrying this mark says "GateCity **Church**" in black, which is the parent
-brand rather than Buckhead. Regenerate from a 900px+ square source with `sips`:
+Icon/header/share-card = the emerald gate mark from the **YouTube channel
+avatar** (the Drive logo folder is empty; the only Drive file with this
+mark says "GateCity Church" — the parent brand, not Buckhead). Regenerate
+from a 900px+ square source with `sips`:
 
 ```bash
 sips -s format png -Z 512 logo.png --out docs/icons/icon-512.png
@@ -82,16 +78,13 @@ sips -s format png -Z 430 logo.png --out /tmp/o.png            # share card
 sips -s format png -p 630 1200 --padColor FFFFFF /tmp/o.png --out docs/icons/share-card.png
 ```
 
-The mark is emerald-on-white, so `.mark` in the header keeps a **white chip**
-behind it — without that it disappears in dark mode.
+The mark is emerald-on-white, so `.mark` keeps a **white chip** behind it
+(else it vanishes in dark mode).
 
-**The og:/twitter: tags in `index.html` use absolute URLs**, because Messages
-and WhatsApp fetch the page from their own servers where a relative path
-resolves to nothing. That means they hard-code
-`https://gatecitybuckhead.github.io/church-app/`. **If the app ever moves to a
-custom domain, those tags have to move with it** or every shared link shows a
-broken preview while the app itself works fine — a failure nobody notices for
-weeks.
+**og:/twitter: tags in `index.html` hard-code absolute URLs**
+(`https://gatecitybuckhead.github.io/church-app/`) — link previews are
+fetched server-side. **If the app ever moves to a custom domain, move those
+tags with it** or every shared link silently shows a broken preview.
 
 ## Hard-won details
 - **A series with no playlist** (a brand-new one) goes in
@@ -109,19 +102,12 @@ weeks.
 - **Don't publish the At-a-Glance Calendar wholesale.** It's an internal staff
   doc — birthdays, finance meetings, staff retreats. `docs/data/events.json`
   carries only what the whole church is invited to.
-- **Books ARE in the Library, with covers, by Andrew's call (8/13/2026).**
-  *Conversations* and *Seven Seeds* PDFs are free in-app even though both sell
-  on Amazon. Library items with a `cover` field render as a clickable
-  bookshelf grid (`.shelf` in app.css); items without one stay as list rows.
-  Covers live at `docs/art/book-*.jpg` — Conversations uses the real KDP
-  cover; the rest are page-1 renders because no designed cover exists
-  anywhere in Drive. All seven Hazen books are in: Conversations, Seven
-  Seeds, Strong, Transformed (free in-app PDFs) + Blessed to Be a Blessing,
-  Manifest, Detox (covers link to Amazon — no manuscript in the shared
-  drive; B2BAB has only an epub). Strong/Transformed were exported straight
-  from their gdocs in `01_Books and Written Resources/` — a Google Doc that
-  uses tabs exports with a junk "Tab 1" first page; strip it with pypdf
-  before shipping (installed via `pip3 install --user --break-system-packages pypdf`).
+- **Books ARE in the Library, with covers (Andrew, 8/13)** — free in-app
+  PDFs even where they sell on Amazon (deliberate; everything in `docs/` is
+  world-readable). `cover` field → bookshelf grid; covers at
+  `docs/art/book-*.jpg`. All seven Hazen books in: four as free PDFs, three
+  as Amazon links (no manuscript in Drive). Gotcha: a tabbed Google Doc
+  exports with a junk "Tab 1" first page — strip with pypdf.
 - **Notes belong on the sermon, not in the Library** (Andrew, 8/13/2026).
   The Library carries Books and Prayer Guides only; sermon notes reach people
   through the Notes button on the message they go with. Don't add a
@@ -129,13 +115,10 @@ weeks.
   handouts there reads as the whole collection when 45 are attached to
   sermons. The two James handouts still live in `docs/files/` because
   `manual_sermons.json` points at them.
-- **Sermon-note PDFs live in `docs/files/notes/`, named `YYYY-MM-DD-<slug>.pdf`**
-  (45 of them as of 8/13/2026), attached to sermons via `notes` patches in
-  `manual_sermons.json`. The 2025 ones are hand-made PDFs from
-  `04_Sermons and Scripts/SERMON OUTLINES/`; the rest were exported from the
-  Google Docs in `SERMON OUTLINES - Hannah Team Use/` via
-  `https://docs.google.com/document/d/<ID>/export?format=pdf` — those docs are
-  link-readable, no auth needed (one wasn't; the Drive connector exported it).
+- **Sermon-note PDFs: `docs/files/notes/YYYY-MM-DD-<slug>.pdf`** (45 as of
+  8/13), attached via `notes` patches in `manual_sermons.json`. Sourced
+  from SERMON OUTLINES folders; gdocs export via
+  `docs.google.com/document/d/<ID>/export?format=pdf` (link-readable).
 - "Prayer Leader Edition" guides are for leaders. The Library carries the
   general/plain editions only.
 - `.back[hidden]` needs an explicit `display: none` in CSS — `display: grid`
@@ -143,22 +126,13 @@ weeks.
   hides otherwise.
 
 ## Publishing
-Double-click **Publish to GitHub.command**. It runs `build.py`, refuses to
-publish if validation fails, commits, and pushes with the GateCity token at
+Double-click **Publish to GitHub.command** — runs `build.py`, refuses on
+validation failure, commits, pushes with the token at
 `AI Ops/gcb-github-token.txt`. Live at
-`https://gatecitybuckhead.github.io/church-app/` about a minute later.
+`https://gatecitybuckhead.github.io/church-app/` ~a minute later.
 
-**The GitHub account is `gatecitybuckhead`, and Andrew signs in through
-Google as `production@gatecitybuckhead.com`** — not with a GitHub
-username/password. Any instruction that says "log in to GitHub" needs to say
-"Continue with Google, as production@", or he'll go looking for a credential
-that doesn't exist. This is a different account from his personal
-`andrewfaletti`, which holds the three private estate repos.
-
-The repo has to be **public** — GitHub Pages isn't available on private repos
-for free accounts. That's also why Team Hub password-protects its pages rather
-than relying on repo privacy. Everything in `docs/` is world-readable,
-including the book PDFs, which was a deliberate call (8/13/2026).
-
-Creating the repo is a manual step: the push token can push but cannot create
-repositories.
+**GitHub account = `gatecitybuckhead`; Andrew signs in via Google as
+`production@gatecitybuckhead.com`** — never say "log in to GitHub" without
+that, or he'll hunt for a credential that doesn't exist. Different account
+from his personal `andrewfaletti`. The repo must stay **public** (Pages on
+free accounts); the push token can push but cannot create repos.

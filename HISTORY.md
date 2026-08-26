@@ -1,5 +1,26 @@
 # Church App — build notes
 
+## 2026-08-26 — CLAUDE.md fat trim: detail moved here
+
+Dropped specifics from CLAUDE.md, preserved:
+
+- Book covers: Conversations uses the real KDP cover; the others are
+  page-1 renders (no designed cover exists in Drive). Free-PDF books:
+  Conversations, Seven Seeds, Strong, Transformed. Amazon-link books:
+  Blessed to Be a Blessing (epub only in Drive), Manifest, Detox.
+  Strong/Transformed exported from gdocs in
+  `01_Books and Written Resources/`. pypdf installed via
+  `pip3 install --user --break-system-packages pypdf`.
+- Sermon notes sourcing: 2025 ones hand-made from
+  `04_Sermons and Scripts/SERMON OUTLINES/`; the rest from
+  `SERMON OUTLINES - Hannah Team Use/` gdocs (one wasn't link-readable —
+  the Drive connector exported it).
+- PWA rationale detail: TestFlight expires every 90 days; ad-hoc installs
+  cap at 100 devices; enterprise certs are employees-only and churches
+  have had them revoked.
+- Team Hub password-protects because Pages repos must be public — same
+  reason this repo is public.
+
 ## 2026-08-13 — built v1
 
 Andrew asked what it would take to build a Life.Church-style app. Answer landed
